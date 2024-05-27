@@ -1,13 +1,13 @@
 import { Header } from "@/components/HeaderComponent/Header";
-import { HomePage } from "@/components/HomeComponent/Home";
+import { Notification } from "@/components/NotificationComponent/Notification";
 import { SideBar } from "@/components/SideMenuComponent/SideMenu";
 
-export default function Home() {
+export default function NotificationPage() {
   return (
     <>
       <SideBar></SideBar>
       <Header></Header>
-      <HomePage></HomePage>
+      <Notification></Notification>
     </>
   );
 }

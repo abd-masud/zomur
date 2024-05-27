@@ -1,13 +1,13 @@
 import { Header } from "@/components/HeaderComponent/Header";
-import { HomePage } from "@/components/HomeComponent/Home";
+import { ProfileInfo } from "@/components/ProfileInfoComponent/ProfileInfo";
 import { SideBar } from "@/components/SideMenuComponent/SideMenu";
 
-export default function Home() {
+export default function ProfileInfoPage() {
   return (
     <>
       <SideBar></SideBar>
       <Header></Header>
-      <HomePage></HomePage>
+      <ProfileInfo></ProfileInfo>
     </>
   );
 }
