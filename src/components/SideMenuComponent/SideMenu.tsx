@@ -67,38 +67,38 @@ export const SideBar = () => {
                 >
                   <ul className="menu-bar__one-dropdown">
                     <li>
-                      <a href="index.html">
+                      <Link href="/SalesAnalysis/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Sales Analysis</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="index-2.html">
+                      <Link href="/ECommerce/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">eCommerce</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="index-3.html">
+                      <Link href="/Marketing/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Marketing</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="index-4.html">
+                      <Link href="/Saas/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Saas Solution</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </li>
               <li>
-                <a className="collapsed" href="transaction.html">
+                <Link className="collapsed" href="/Transaction/">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -118,10 +118,10 @@ export const SideBar = () => {
                     </span>
                     <span className="menu-bar__name">Transaction</span>
                   </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="collapsed" href="my-wallet.html">
+                <Link className="collapsed" href="Wallet">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -146,10 +146,10 @@ export const SideBar = () => {
                     </span>
                     <span className="menu-bar__name">My Wallet</span>
                   </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="collapsed" href="analytics.html">
+                <Link className="collapsed" href="/Analytics/">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -176,10 +176,10 @@ export const SideBar = () => {
                     </span>
                     <span className="menu-bar__name">Analytics</span>
                   </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="collapsed" href="statistics.html">
+                <Link className="collapsed" href="/Statistics/">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -204,10 +204,10 @@ export const SideBar = () => {
                     </span>
                     <span className="menu-bar__name">Statistics</span>
                   </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="collapsed" href="inbox.html">
+                <Link className="collapsed" href="/Inbox/">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -228,22 +228,18 @@ export const SideBar = () => {
                     <span className="menu-bar__name">Inbox</span>
                   </span>
                   <div className="crancy-menu-group">
-                    <span
-                    // ref="#"
-                    >
+                    <span>
                       <img src="img/inbox-edit.svg" />
                     </span>
-                    <span
-                    // ref="#"
-                    >
+                    <span>
                       <img src="img/inbox-author.png" />
                     </span>
                     <span className="menu-bar__count crancy-color1__bg">5</span>
                   </div>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#!"
                   className="collapsed"
                   data-bs-toggle="collapse"
@@ -268,7 +264,7 @@ export const SideBar = () => {
                     <span className="menu-bar__name">External</span>
                   </span>
                   <span className="crancy__toggle"></span>
-                </a>
+                </Link>
                 <div
                   className="collapse crancy__dropdown"
                   id="menu-item__apps"
@@ -276,95 +272,95 @@ export const SideBar = () => {
                 >
                   <ul className="menu-bar__one-dropdown">
                     <li>
-                      <a href="user.html">
+                      <Link href="/User/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Users</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="products.html">
+                      <Link href="/Products/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Products</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="add-product.html">
+                      <Link href="/AddProduct/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">
                             Add New Product
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="order-products.html">
+                      <Link href="/OrderProducts/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Product Orders</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="customers.html">
+                      <Link href="/Customers/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Customers</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="add-customer.html">
+                      <Link href="/AddCustomer/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">
                             Customer Detail
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="customer-transactions.html">
+                      <Link href="/CustomerTransactions/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">
                             Customer Transaction
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="my-task.html">
+                      <Link href="/MyTask/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">My Task</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="profile-overview.html">
+                      <Link href="/ProfileOverview/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">
                             Profile Overview
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="calendar.html">
+                      <Link href="/Calendar/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Calendar</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="coming-soon.html">
+                      <Link href="/ComingSoon/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Coming Soon</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </li>
               <li>
-                <a className="collapsed" href="projects.html">
+                <Link className="collapsed" href="/Projects/">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -385,10 +381,10 @@ export const SideBar = () => {
                     </span>
                     <span className="menu-bar__name">Project</span>
                   </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="collapsed" href="integrations.html">
+                <Link className="collapsed" href="/Integrations/">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -408,10 +404,10 @@ export const SideBar = () => {
                     </span>
                     <span className="menu-bar__name">Integrations</span>
                   </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a className="collapsed" href="notifications.html">
+                <Link className="collapsed" href="/Notifications/">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -439,10 +435,10 @@ export const SideBar = () => {
                     <span className="menu-bar__name">Notifications</span>
                   </span>
                   <span className="menu-bar__count crancy-color1__bg">7</span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a
+                <Link
                   href="#!"
                   className="collapsed"
                   data-bs-toggle="collapse"
@@ -478,7 +474,7 @@ export const SideBar = () => {
                     <span className="menu-bar__name">Authentication</span>
                   </span>
                   <span className="crancy__toggle"></span>
-                </a>
+                </Link>
                 <div
                   className="collapse crancy__dropdown"
                   id="menu-item__auth"
@@ -486,69 +482,69 @@ export const SideBar = () => {
                 >
                   <ul className="menu-bar__one-dropdown">
                     <li>
-                      <a href="login.html">
+                      <Link href="/Login/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Login</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="sign-up.html">
+                      <Link href="/SignUp/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">Sign Up</span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="forget-password.html">
+                      <Link href="/ForgetPassword/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">
                             Forgot Password
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="confirm-password.html">
+                      <Link href="/ConfirmPassword/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">
                             Confirm Passowrd
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="changed-password.html">
+                      <Link href="/ChangedPassword/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">
                             Changed Password
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="email-verification.html">
+                      <Link href="/EmailVerification/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">
                             Email Verification
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="password-success.html">
+                      <Link href="/PasswordSuccess/">
                         <span className="menu-bar__text">
                           <span className="menu-bar__name">
                             Success Password
                           </span>
                         </span>
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
               </li>
               <li>
-                <a className="collapsed" href="history.html">
+                <Link className="collapsed" href="/History/">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -582,7 +578,7 @@ export const SideBar = () => {
                     </span>
                     <span className="menu-bar__name">History</span>
                   </span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -593,7 +589,7 @@ export const SideBar = () => {
           <div className="menu-bar">
             <ul className="menu-bar__one crancy-dashboard-menu" id="CrancyMenu">
               <li>
-                <a href="support-ticket.html" className="collapsed">
+                <Link href="/SupportTicket/" className="collapsed">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -613,10 +609,10 @@ export const SideBar = () => {
                     </span>
                     <span className="menu-bar__name">Support</span>
                   </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="profile-info.html" className="collapsed">
+                <Link href="/ProfileInfo/" className="collapsed">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -634,10 +630,10 @@ export const SideBar = () => {
                     </span>
                     <span className="menu-bar__name">Settings</span>
                   </span>
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#!" className="collapsed">
+                <Link href="/Login/" className="collapsed">
                   <span className="menu-bar__text">
                     <span className="crancy-menu-icon crancy-svg-icon__v1">
                       <svg
@@ -665,13 +661,13 @@ export const SideBar = () => {
                     </span>
                     <span className="menu-bar__name">Logout</span>
                   </span>
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div
             className="crancy-support-card crancy-bg-cover"
-            style={{ backgroundImage: "url('img/support-bg.png')" }}
+            style={{ backgroundImage: "url(img/support-bg.png)" }}
           >
             <div className="crancy-support-card__sing">
               <img src="img/support-sign-icon.svg" />
@@ -680,12 +676,12 @@ export const SideBar = () => {
             <p className="crancy-support-card__text">
               Having trouble Dashboard? Please contact us for more question?
             </p>
-            <a
-              href="support-ticket.html"
+            <Link
+              href="/SupportTicket/"
               className="crancy-btn crancy-ybcolor mg-top-20"
             >
               Go To Help Center
-            </a>
+            </Link>
           </div>
         </div>
       </div>

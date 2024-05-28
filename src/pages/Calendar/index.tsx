@@ -1,13 +1,13 @@
+import { Calender } from "@/components/CalendarComponent/Calender";
 import { Header } from "@/components/HeaderComponent/Header";
-import { Notification } from "@/components/NotificationComponent/Notification";
 import { SideBar } from "@/components/SideMenuComponent/SideMenu";
 
-export default function NotificationPage() {
+export default function CalenderPage() {
   return (
     <>
       <SideBar></SideBar>
       <Header></Header>
-      <Notification></Notification>
+      <Calender></Calender>
     </>
   );
 }

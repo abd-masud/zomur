@@ -218,7 +218,7 @@ export const Header = () => {
                           <div className="crancy-header__single crancy-header__single--messages">
                             <Link
                               className="crancy-header__blink"
-                              href={"/InboxComponent/"}
+                              href={"/Inbox/"}
                             >
                               <svg
                                 className="crancy-header__svg--icon"
@@ -345,7 +345,7 @@ export const Header = () => {
                           <div className="crancy-header__single">
                             <Link
                               className="crancy-header__blink"
-                              href={"/NotificationComponent/"}
+                              href={"/Notifications/"}
                             >
                               <svg
                                 className="crancy-header__svg--icon"
@@ -500,7 +500,7 @@ export const Header = () => {
                           <div className="crancy-header__settings">
                             <Link
                               className="crancy-header__blink"
-                              href="/ProfileInfoComponent/"
+                              href="/ProfileInfo/"
                             >
                               <svg
                                 className="crancy-header__svg--icon"
@@ -516,7 +516,7 @@ export const Header = () => {
                           </div>
                         </div>
                         <div className="crancy-header__single">
-                          <Link href="/ProfileOverviewComponent/">
+                          <Link href="/ProfileOverview/">
                             <div className="crancy-header__author-img">
                               <img src="img/profile-pic.png" alt="#" />
                             </div>
