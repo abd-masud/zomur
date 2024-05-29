@@ -83,7 +83,7 @@ export const Header = () => {
                         type="text"
                         placeholder="Search Dashboard"
                       />
-                      <a href="#" className="crancy-header__command">
+                      <Link href="" className="crancy-header__command">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="18"
@@ -104,7 +104,7 @@ export const Header = () => {
                             fill="#5D6A83"
                           />
                         </svg>
-                      </a>
+                      </Link>
                     </form>
                   </div>
                 </div>
@@ -113,9 +113,9 @@ export const Header = () => {
                     <div className="crancy-header__group-two">
                       <div className="crancy-header__right">
                         <div className="crancy-header__single">
-                          <a className="crancy-language_main">
+                          <Link href="" className="crancy-language_main">
                             <img src="img/flag-selected.png" />
-                          </a>
+                          </Link>
                           <div className="crancy-dropdown crancy-language">
                             <div className="crancy-dropdown__heading">
                               <div className="crancy-dropdown__close">
@@ -132,13 +132,13 @@ export const Header = () => {
                               <h3 className="crancy-dropdown__title">
                                 Select Language
                               </h3>
-                              <a href="#" className="crancy-dropdown__toggle">
+                              <Link href="" className="crancy-dropdown__toggle">
                                 <img src="img/toggle-icons.svg" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-dropdown__hover--inner">
                               <ul className="crancy-dlanguage">
-                                <a className="active" href="#">
+                                <Link className="active" href="">
                                   <span className="crancy-dlanguage__icon">
                                     <img src="img/language-check-icon.svg" />
                                   </span>
@@ -149,8 +149,8 @@ export const Header = () => {
                                   <h4 className="crancy-dlanguage__title">
                                     English
                                   </h4>
-                                </a>
-                                <a href="#">
+                                </Link>
+                                <Link href="">
                                   <span className="crancy-dlanguage__icon">
                                     <img src="img/language-check-icon.svg" />
                                   </span>
@@ -161,8 +161,8 @@ export const Header = () => {
                                   <h4 className="crancy-dlanguage__title">
                                     German
                                   </h4>
-                                </a>
-                                <a href="#">
+                                </Link>
+                                <Link href="">
                                   <span className="crancy-dlanguage__icon">
                                     <img src="img/language-check-icon.svg" />
                                   </span>
@@ -173,8 +173,8 @@ export const Header = () => {
                                   <h4 className="crancy-dlanguage__title">
                                     French
                                   </h4>
-                                </a>
-                                <a href="#">
+                                </Link>
+                                <Link href="">
                                   <span className="crancy-dlanguage__icon">
                                     <img src="img/language-check-icon.svg" />
                                   </span>
@@ -185,8 +185,8 @@ export const Header = () => {
                                   <h4 className="crancy-dlanguage__title">
                                     Chinese
                                   </h4>
-                                </a>
-                                <a href="#">
+                                </Link>
+                                <Link href="">
                                   <span className="crancy-dlanguage__icon">
                                     <img src="img/language-check-icon.svg" />
                                   </span>
@@ -197,8 +197,8 @@ export const Header = () => {
                                   <h4 className="crancy-dlanguage__title">
                                     Swedish
                                   </h4>
-                                </a>
-                                <a href="#">
+                                </Link>
+                                <Link href="">
                                   <span className="crancy-dlanguage__icon">
                                     <img src="img/language-check-icon.svg" />
                                   </span>
@@ -209,7 +209,7 @@ export const Header = () => {
                                   <h4 className="crancy-dlanguage__title">
                                     Spanish
                                   </h4>
-                                </a>
+                                </Link>
                               </ul>
                             </div>
                           </div>
@@ -247,9 +247,12 @@ export const Header = () => {
                                 <h3 className="crancy-dropdown__title">
                                   Messages
                                 </h3>
-                                <a href="#" className="crancy-dropdown__toggle">
+                                <Link
+                                  href=""
+                                  className="crancy-dropdown__toggle"
+                                >
                                   <img src="img/toggle-icons.svg" />
-                                </a>
+                                </Link>
                               </div>
                               <ul className="crancy-balance_list crancy-header-messages">
                                 <li>
@@ -259,15 +262,20 @@ export const Header = () => {
                                       <div className="crancy-header-messages__contnt">
                                         <div className="crancy-header-messages__inside">
                                           <h4 className="crancy-header-messages__title">
-                                            <a href="inbox.html">Devon Lane</a>
+                                            <Link href="/Inbox/">
+                                              Devon Lane
+                                            </Link>
                                           </h4>
                                           <p className="crancy-header-messages__desc">
                                             In most states, the ....
                                           </p>
                                         </div>
-                                        <a className="crancy-header-messages__btn">
+                                        <Link
+                                          href=""
+                                          className="crancy-header-messages__btn"
+                                        >
                                           Send
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
@@ -279,15 +287,20 @@ export const Header = () => {
                                       <div className="crancy-header-messages__contnt">
                                         <div className="crancy-header-messages__inside">
                                           <h4 className="crancy-header-messages__title">
-                                            <a href="inbox.html">Jerome Bell</a>
+                                            <Link href="/Inbox/">
+                                              Jerome Bell
+                                            </Link>
                                           </h4>
                                           <p className="crancy-header-messages__desc">
                                             Twenty 30-sec ...
                                           </p>
                                         </div>
-                                        <a className="crancy-header-messages__btn">
+                                        <Link
+                                          href=""
+                                          className="crancy-header-messages__btn"
+                                        >
                                           Send
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
@@ -299,15 +312,20 @@ export const Header = () => {
                                       <div className="crancy-header-messages__contnt">
                                         <div className="crancy-header-messages__inside">
                                           <h4 className="crancy-header-messages__title">
-                                            <a href="inbox.html">Devon Lane</a>
+                                            <Link href="/Inbox/">
+                                              Devon Lane
+                                            </Link>
                                           </h4>
                                           <p className="crancy-header-messages__desc">
                                             In most states, the ....
                                           </p>
                                         </div>
-                                        <a className="crancy-header-messages__btn crancy-header-messages__btn--warning">
+                                        <Link
+                                          href=""
+                                          className="crancy-header-messages__btn crancy-header-messages__btn--warning"
+                                        >
                                           Warning
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
@@ -319,26 +337,29 @@ export const Header = () => {
                                       <div className="crancy-header-messages__contnt">
                                         <div className="crancy-header-messages__inside">
                                           <h4 className="crancy-header-messages__title">
-                                            <a href="inbox.html">
+                                            <Link href="/Inbox/">
                                               Brooklyn Simmons
-                                            </a>
+                                            </Link>
                                           </h4>
                                           <p className="crancy-header-messages__desc">
                                             Alcohol based ...
                                           </p>
                                         </div>
-                                        <a className="crancy-header-messages__btn">
+                                        <Link
+                                          href=""
+                                          className="crancy-header-messages__btn"
+                                        >
                                           Send
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </li>
                               </ul>
                               <div className="crancy-dropdown__button">
-                                <a href="#" className="crancy-dropdown__view">
+                                <Link href="" className="crancy-dropdown__view">
                                   View All <i className="fa fa-arrow-right"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -374,9 +395,12 @@ export const Header = () => {
                                 <h3 className="crancy-dropdown__title">
                                   Notifications
                                 </h3>
-                                <a href="#" className="crancy-dropdown__toggle">
+                                <Link
+                                  href=""
+                                  className="crancy-dropdown__toggle"
+                                >
                                   <img src="img/toggle-icons.svg" />
-                                </a>
+                                </Link>
                               </div>
                               <ul className="crancy-balance_list crancy-header-messages">
                                 <li>
@@ -386,17 +410,20 @@ export const Header = () => {
                                       <div className="crancy-header-messages__contnt">
                                         <div className="crancy-header-messages__inside">
                                           <h4 className="crancy-header-messages__title crancy-header-messages__title--v2">
-                                            <a href="inbox.html">
+                                            <Link href="/Inbox/">
                                               Withdraw USDT
-                                            </a>
+                                            </Link>
                                           </h4>
                                           <p className="crancy-header-messages__desc">
                                             $659.10
                                           </p>
                                         </div>
-                                        <a className="crancy-header-messages__btn crancy-header-messages__btn--completed">
+                                        <Link
+                                          href=""
+                                          className="crancy-header-messages__btn crancy-header-messages__btn--completed"
+                                        >
                                           Completed
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
@@ -408,17 +435,20 @@ export const Header = () => {
                                       <div className="crancy-header-messages__contnt">
                                         <div className="crancy-header-messages__inside">
                                           <h4 className="crancy-header-messages__title crancy-header-messages__title--v2">
-                                            <a href="inbox.html">
+                                            <Link href="/Inbox/">
                                               Withdraw USDT
-                                            </a>
+                                            </Link>
                                           </h4>
                                           <p className="crancy-header-messages__desc">
                                             $659.10
                                           </p>
                                         </div>
-                                        <a className="crancy-header-messages__btn crancy-header-messages__btn--completed">
+                                        <Link
+                                          href=""
+                                          className="crancy-header-messages__btn crancy-header-messages__btn--completed"
+                                        >
                                           Completed
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
@@ -430,17 +460,20 @@ export const Header = () => {
                                       <div className="crancy-header-messages__contnt">
                                         <div className="crancy-header-messages__inside">
                                           <h4 className="crancy-header-messages__title crancy-header-messages__title--v2">
-                                            <a href="inbox.html">
+                                            <Link href="/Inbox/">
                                               New Login Activity
-                                            </a>
+                                            </Link>
                                           </h4>
                                           <p className="crancy-header-messages__desc">
                                             Ip : 192.168.1.1
                                           </p>
                                         </div>
-                                        <a className="crancy-header-messages__btn crancy-header-messages__btn--warning">
+                                        <Link
+                                          href=""
+                                          className="crancy-header-messages__btn crancy-header-messages__btn--warning"
+                                        >
                                           Warning
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
@@ -452,17 +485,20 @@ export const Header = () => {
                                       <div className="crancy-header-messages__contnt">
                                         <div className="crancy-header-messages__inside">
                                           <h4 className="crancy-header-messages__title crancy-header-messages__title--v2">
-                                            <a href="inbox.html">
+                                            <Link href="/Inbox/">
                                               Withdraw USDT
-                                            </a>
+                                            </Link>
                                           </h4>
                                           <p className="crancy-header-messages__desc">
                                             $659.10
                                           </p>
                                         </div>
-                                        <a className="crancy-header-messages__btn crancy-header-messages__btn--completed">
+                                        <Link
+                                          href=""
+                                          className="crancy-header-messages__btn crancy-header-messages__btn--completed"
+                                        >
                                           Completed
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
@@ -474,26 +510,29 @@ export const Header = () => {
                                       <div className="crancy-header-messages__contnt">
                                         <div className="crancy-header-messages__inside">
                                           <h4 className="crancy-header-messages__title crancy-header-messages__title--v2">
-                                            <a href="inbox.html">
+                                            <Link href="/Inbox/">
                                               Withdraw USDT
-                                            </a>
+                                            </Link>
                                           </h4>
                                           <p className="crancy-header-messages__desc">
                                             $659.10
                                           </p>
                                         </div>
-                                        <a className="crancy-header-messages__btn crancy-header-messages__btn--completed">
+                                        <Link
+                                          href=""
+                                          className="crancy-header-messages__btn crancy-header-messages__btn--completed"
+                                        >
                                           Completed
-                                        </a>
+                                        </Link>
                                       </div>
                                     </div>
                                   </div>
                                 </li>
                               </ul>
                               <div className="crancy-dropdown__button">
-                                <a href="#" className="crancy-dropdown__view">
+                                <Link href="" className="crancy-dropdown__view">
                                   View All <i className="fa fa-arrow-right"></i>
-                                </a>
+                                </Link>
                               </div>
                             </div>
                           </div>
@@ -525,7 +564,7 @@ export const Header = () => {
                             <div className="crancy-dropdown__hover--inner">
                               <ul className="crancy-dmenu">
                                 <li>
-                                  <a href="#">
+                                  <Link href="">
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
                                       width="24"
@@ -553,10 +592,10 @@ export const Header = () => {
                                       />
                                     </svg>
                                     My Profile
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <Link href="">
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
                                       width="24"
@@ -571,10 +610,10 @@ export const Header = () => {
                                       />
                                     </svg>
                                     Inbox
-                                  </a>
+                                  </Link>
                                 </li>
                                 <li>
-                                  <a href="#">
+                                  <Link href="">
                                     <svg
                                       xmlns="http://www.w3.org/2000/svg"
                                       width="24"
@@ -589,15 +628,15 @@ export const Header = () => {
                                       />
                                     </svg>
                                     Logout
-                                  </a>
+                                  </Link>
                                 </li>
                               </ul>
                               <ul className="crancy-dmpage">
                                 <li>
-                                  <a href="#">Privacy Policy</a>
+                                  <Link href="">Privacy Policy</Link>
                                 </li>
                                 <li>
-                                  <a href="#">About</a>
+                                  <Link href="">About</Link>
                                 </li>
                               </ul>
                             </div>

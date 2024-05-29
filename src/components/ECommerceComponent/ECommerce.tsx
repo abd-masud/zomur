@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const ECommerce = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -12,16 +14,19 @@ export const ECommerce = () => {
                 </div>
                 <div className="crancy-progress-card__authors">
                   <div className="crancy-tasksingle__group crancy-tasksingle__group--authors">
-                    <a href="#">
+                    <Link href="/ECommerce/">
                       <img src="img/author-1.png" alt="author-img" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="/ECommerce/">
                       <img src="img/author-2.png" alt="author-img" />
-                    </a>
-                    <a href="#" className="crancy-tasksingle__group--more">
+                    </Link>
+                    <Link
+                      href="/ECommerce/"
+                      className="crancy-tasksingle__group--more"
+                    >
                       <span>35</span>
                       <img src="img/author-5.png" alt="author-img" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -57,16 +62,19 @@ export const ECommerce = () => {
                 </div>
                 <div className="crancy-progress-card__authors">
                   <div className="crancy-tasksingle__group crancy-tasksingle__group--authors">
-                    <a href="#">
+                    <Link href="/ECommerce/">
                       <img src="img/author-1.png" alt="author-img" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="/ECommerce/">
                       <img src="img/author-2.png" alt="author-img" />
-                    </a>
-                    <a href="#" className="crancy-tasksingle__group--more">
+                    </Link>
+                    <Link
+                      href="/ECommerce/"
+                      className="crancy-tasksingle__group--more"
+                    >
                       <span>35</span>
                       <img src="img/author-5.png" alt="author-img" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -102,16 +110,19 @@ export const ECommerce = () => {
                 </div>
                 <div className="crancy-progress-card__authors">
                   <div className="crancy-tasksingle__group crancy-tasksingle__group--authors">
-                    <a href="#">
+                    <Link href="/ECommerce/">
                       <img src="img/author-1.png" alt="author-img" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="/ECommerce/">
                       <img src="img/author-2.png" alt="author-img" />
-                    </a>
-                    <a href="#" className="crancy-tasksingle__group--more">
+                    </Link>
+                    <Link
+                      href="/ECommerce/"
+                      className="crancy-tasksingle__group--more"
+                    >
                       <span>35</span>
                       <img src="img/author-5.png" alt="author-img" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -147,16 +158,19 @@ export const ECommerce = () => {
                 </div>
                 <div className="crancy-progress-card__authors">
                   <div className="crancy-tasksingle__group crancy-tasksingle__group--authors">
-                    <a href="#">
+                    <Link href="/ECommerce/">
                       <img src="img/author-1.png" alt="author-img" />
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="/ECommerce/">
                       <img src="img/author-2.png" alt="author-img" />
-                    </a>
-                    <a href="#" className="crancy-tasksingle__group--more">
+                    </Link>
+                    <Link
+                      href="/ECommerce/"
+                      className="crancy-tasksingle__group--more"
+                    >
                       <span>35</span>
                       <img src="img/author-5.png" alt="author-img" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -299,31 +313,31 @@ export const ECommerce = () => {
                       </div>
                     </div>
                     <div className="crancy-customer-filter__single">
-                      <a
-                        href="#"
+                      <Link
+                        href="/ECommerce/"
                         className="crancy-customer-filter__single--button"
                       >
                         <img src="img/filter-icon3.svg" />
                         Filters
-                      </a>
+                      </Link>
                     </div>
                     <div className="crancy-customer-filter__single">
-                      <a
-                        href="#"
+                      <Link
+                        href="/ECommerce/"
                         className="crancy-customer-filter__single--button"
                       >
                         <img src="img/calendar-icon-2.svg" />
                         April 11 - April 24
-                      </a>
+                      </Link>
                     </div>
                     <div className="crancy-customer-filter__single">
-                      <a
-                        href="#"
+                      <Link
+                        href="/ECommerce/"
                         className="crancy-customer-filter__single--button"
                       >
                         <img src="img/download-icon2.svg" />
                         Download
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
@@ -402,9 +416,9 @@ export const ECommerce = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -452,9 +466,9 @@ export const ECommerce = () => {
                               Cancelled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -502,9 +516,9 @@ export const ECommerce = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -552,9 +566,9 @@ export const ECommerce = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -602,9 +616,9 @@ export const ECommerce = () => {
                               Cancelled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -652,9 +666,9 @@ export const ECommerce = () => {
                               Cancelled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -702,9 +716,9 @@ export const ECommerce = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -752,9 +766,9 @@ export const ECommerce = () => {
                               Cancelled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -802,9 +816,9 @@ export const ECommerce = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -852,9 +866,9 @@ export const ECommerce = () => {
                               Cancelled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -902,9 +916,9 @@ export const ECommerce = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -952,9 +966,9 @@ export const ECommerce = () => {
                               Cancelled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -1002,9 +1016,9 @@ export const ECommerce = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -1052,9 +1066,9 @@ export const ECommerce = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -1073,9 +1087,12 @@ export const ECommerce = () => {
                   <div className="crancy-sidebar__single">
                     <div className="crancy-sidebar__heading">
                       <h4 className="crancy-sidebar__title">My Wallet</h4>
-                      <a href="#" className="crancy-sidebar__toggles">
+                      <Link
+                        href="/ECommerce/"
+                        className="crancy-sidebar__toggles"
+                      >
                         <img src="img/toggle-icon.svg" />
-                      </a>
+                      </Link>
                     </div>
 
                     <div
@@ -1116,7 +1133,10 @@ export const ECommerce = () => {
                         </div>
                       </div>
                       <div className="crancy-wallet-card__buttons">
-                        <a href="#" className="crancy-btn crancy-ybcolor">
+                        <Link
+                          href="/ECommerce/"
+                          className="crancy-btn crancy-ybcolor"
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -1136,8 +1156,11 @@ export const ECommerce = () => {
                             />
                           </svg>
                           Deposit
-                        </a>
-                        <a href="#" className="crancy-btn crancy-white">
+                        </Link>
+                        <Link
+                          href="/ECommerce/"
+                          className="crancy-btn crancy-white"
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -1157,7 +1180,7 @@ export const ECommerce = () => {
                             />
                           </svg>
                           Withdraw
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -1167,9 +1190,12 @@ export const ECommerce = () => {
                   <div className="crancy-sidebar__single">
                     <div className="crancy-sidebar__heading">
                       <h4 className="crancy-sidebar__title">Sales history</h4>
-                      <a href="#" className="crancy-sidebar__toggles">
+                      <Link
+                        href="/ECommerce/"
+                        className="crancy-sidebar__toggles"
+                      >
                         <img src="img/toggle-icon.svg" />
-                      </a>
+                      </Link>
                     </div>
 
                     <ul className="crancy-sidebar__historylist">
@@ -1178,11 +1204,11 @@ export const ECommerce = () => {
                           <div className="crancy-sidebar__history-thumb">
                             <img src="img/sales-history-1.png" alt="#" />
                             <h4>
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <span className="crancy-sidebar__history-title">
                                   Rompi Berkancing
                                 </span>
-                              </a>
+                              </Link>
                               <b className="crancy-sidebar__history-name crancy-pcolor">
                                 $400.98<span>April 29, 2022</span>
                               </b>
@@ -1198,11 +1224,11 @@ export const ECommerce = () => {
                           <div className="crancy-sidebar__history-thumb">
                             <img src="img/sales-history-2.png" alt="#" />
                             <h4>
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <span className="crancy-sidebar__history-title">
                                   Blazer assorted pocket
                                 </span>
-                              </a>
+                              </Link>
                               <b className="crancy-sidebar__history-name crancy-pcolor">
                                 $550.75<span>April 28, 2022</span>
                               </b>
@@ -1218,11 +1244,11 @@ export const ECommerce = () => {
                           <div className="crancy-sidebar__history-thumb">
                             <img src="img/sales-history-3.png" alt="#" />
                             <h4>
-                              <a href="#">
+                              <Link href="/ECommerce/">
                                 <span className="crancy-sidebar__history-title">
                                   Pattern top with knot
                                 </span>
-                              </a>
+                              </Link>
                               <b className="crancy-sidebar__history-name crancy-pcolor">
                                 $210.98<span>April 25, 2022</span>
                               </b>

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Integrations = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -10,9 +12,9 @@ export const Integrations = () => {
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -32,21 +34,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                          href="/Integrations/"
                           className="crancy-btn crancy-btn__regular crancy-btn__regular--connect"
                         >
                           Connect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -66,18 +68,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a href="#" className="crancy-btn crancy-btn__regular">
+                        <Link
+                          href="/Integrations/"
+                          className="crancy-btn crancy-btn__regular"
+                        >
                           Disconnect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -97,18 +102,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a href="#" className="crancy-btn crancy-btn__regular">
+                        <Link
+                          href="/Integrations/"
+                          className="crancy-btn crancy-btn__regular"
+                        >
                           Disconnect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -128,18 +136,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a href="#" className="crancy-btn crancy-btn__regular">
+                        <Link
+                          href="/Integrations/"
+                          className="crancy-btn crancy-btn__regular"
+                        >
                           Disconnect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -159,21 +170,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                          href="/Integrations/"
                           className="crancy-btn crancy-btn__regular crancy-btn__regular--connect"
                         >
                           Connect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -193,21 +204,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                          href="/Integrations/"
                           className="crancy-btn crancy-btn__regular crancy-btn__regular--connect"
                         >
                           Connect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -227,21 +238,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                          href="/Integrations/"
                           className="crancy-btn crancy-btn__regular crancy-btn__regular--connect"
                         >
                           Connect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -261,21 +272,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                          href="/Integrations/"
                           className="crancy-btn crancy-btn__regular crancy-btn__regular--connect"
                         >
                           Connect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -295,21 +306,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                          href="/Integrations/"
                           className="crancy-btn crancy-btn__regular crancy-btn__regular--connect"
                         >
                           Connect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -329,21 +340,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                          href="/Integrations/"
                           className="crancy-btn crancy-btn__regular crancy-btn__regular--connect"
                         >
                           Connect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -363,21 +374,21 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                          href="/Integrations/"
                           className="crancy-btn crancy-btn__regular crancy-btn__regular--connect"
                         >
                           Connect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
                   <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                     <div className="crancy-single-integration mg-top-30">
                       <div className="crancy-toggle">
-                        <a href="#">
+                        <Link href="/Integrations/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-single-integration__head">
                         <div className="crancy-single-integration__icon">
@@ -397,12 +408,12 @@ export const Integrations = () => {
                           At vero eos et accusamus et iusto odio dignissimos
                           ducimus qui blanditiis praesentium voluptatum.
                         </p>
-                        <a
-                          href="#"
+                        <Link
+                          href="/Integrations/"
                           className="crancy-btn crancy-btn__regular crancy-btn__regular--connect"
                         >
                           Connect
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

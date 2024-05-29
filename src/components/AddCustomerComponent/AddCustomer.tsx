@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const AddCustomer = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -6,15 +8,15 @@ export const AddCustomer = () => {
           <div className="col-xxl-8 col-12 crancy-main__column">
             <div className="crancy-body">
               <div className="crancy-dsinner">
-                <form action="#">
+                <form action="">
                   <div className="row">
                     <div className="col-lg-7 col-12 mg-top-30">
                       <div className="crancy-product-card">
                         <h4 className="crancy-product-card__title">
                           Customer Overview
-                          <a href="#">
+                          <Link href="/AddCustomer/">
                             <img src="img/alert-circle.svg" />
-                          </a>
+                          </Link>
                         </h4>
                         <div className="row">
                           <div className="col-lg-6 col-md-6 col-12">
@@ -117,9 +119,9 @@ export const AddCustomer = () => {
                       <div className="crancy-product-card mg-top-30">
                         <h4 className="crancy-product-card__title">
                           Customer Address
-                          <a href="#">
+                          <Link href="/AddCustomer/">
                             <img src="img/alert-circle.svg" />
-                          </a>
+                          </Link>
                         </h4>
                         <div className="row">
                           <div className="col-lg-6 col-md-6 col-12">
@@ -289,9 +291,12 @@ export const AddCustomer = () => {
                   <div className="crancy-sidebar__single">
                     <div className="crancy-sidebar__heading">
                       <h4 className="crancy-sidebar__title">My Wallet</h4>
-                      <a href="#" className="crancy-sidebar__toggles">
+                      <Link
+                        href="/AddCustomer/"
+                        className="crancy-sidebar__toggles"
+                      >
                         <img src="img/inline-toggle.svg" />
-                      </a>
+                      </Link>
                     </div>
 
                     <div
@@ -332,7 +337,8 @@ export const AddCustomer = () => {
                         </div>
                       </div>
                       <div className="crancy-wallet-card__buttons">
-                        <a
+                        <Link
+                          href="/AddCustomer/"
                           data-bs-toggle="modal"
                           data-bs-target="#popup_modal_1"
                           className="crancy-btn crancy-ybcolor"
@@ -356,8 +362,11 @@ export const AddCustomer = () => {
                             />
                           </svg>
                           Deposit
-                        </a>
-                        <a href="#" className="crancy-btn crancy-white">
+                        </Link>
+                        <Link
+                          href="/AddCustomer/"
+                          className="crancy-btn crancy-white"
+                        >
                           <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="24"
@@ -377,7 +386,7 @@ export const AddCustomer = () => {
                             />
                           </svg>
                           Withdraw
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -385,7 +394,7 @@ export const AddCustomer = () => {
 
                 <div className="col-xxl-12 col-xl-6 col-12 crancy-sidebar__widget">
                   <div className="crancy-sidebar__single">
-                    <form className="crancy-wallet-form" action="#">
+                    <form className="crancy-wallet-form" action="">
                       <span className="crancy-wallet-form__label">Send</span>
 
                       <div className="crancy-wallet-form__card">
@@ -410,12 +419,12 @@ export const AddCustomer = () => {
                         <div className="crancy-wallet-form__amount-group">
                           <input type="text" placeholder="$1,24" />
                           <div className="crancy-wallet-form__amount-author">
-                            <a href="#">
+                            <Link href="/AddCustomer/">
                               <img src="img/amount-author1.png" />
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/AddCustomer/">
                               <img src="img/amount-author2.png" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -431,7 +440,7 @@ export const AddCustomer = () => {
                     <form className="crancy-wallet-customer mg-top-30">
                       <div className="crancy-wallet-customer__single">
                         <h3 className="crancy-wallet-customer__title">
-                          Customer <a href="#">Edit</a>
+                          Customer <Link href="/AddCustomer/">Edit</Link>
                         </h3>
                         <div className="crancy-wallet-customer__author">
                           <img src="img/payment-author.svg" />
@@ -447,28 +456,31 @@ export const AddCustomer = () => {
                       </div>
                       <div className="crancy-wallet-customer__single">
                         <h3 className="crancy-wallet-customer__title">
-                          Contact Information <a href="#">Edit</a>
+                          Contact Information{" "}
+                          <Link href="/AddCustomer/">Edit</Link>
                         </h3>
                         <ul className="crancy-wallet-customer__contact">
                           <li>
                             <img src="img/email-icon.svg" />
                             <p>
-                              <a href="mailto:darcelballentine@mail.com">
+                              <Link href="mailto:darcelballentine@mail.com">
                                 darcelballentine@mail.com
-                              </a>
+                              </Link>
                             </p>
                           </li>
                           <li>
                             <img src="img/phone-icon.svg" />
                             <p>
-                              <a href="tell:(671) 555-0110">(671) 555-0110</a>
+                              <Link href="tell:(671) 555-0110">
+                                (671) 555-0110
+                              </Link>
                             </p>
                           </li>
                         </ul>
                       </div>
                       <div className="crancy-wallet-customer__single">
                         <h3 className="crancy-wallet-customer__title">
-                          Default Address <a href="#">Edit</a>
+                          Default Address <Link href="/AddCustomer/">Edit</Link>
                         </h3>
                         <ul className="crancy-wallet-customer__contact">
                           <li>

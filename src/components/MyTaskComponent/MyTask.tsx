@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const MyTask = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -13,18 +15,18 @@ export const MyTask = () => {
                         <b>To Do</b> <span>(03)</span>
                       </h3>
                       <div className="crancy-todolist__task--button">
-                        <a href="#">
+                        <Link href="/MyTask/">
                           <img src="img/plus-icon-default.svg" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="/MyTask/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">Implement Login</a>
+                          <Link href="/MyTask/">Implement Login</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -48,19 +50,19 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">Team Meeting </a>
+                          <Link href="/MyTask/">Team Meeting </Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -84,19 +86,19 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">Group Meeting</a>
+                          <Link href="/MyTask/">Group Meeting</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -120,19 +122,19 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">USA Clients</a>
+                          <Link href="/MyTask/">USA Clients</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -156,12 +158,12 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -173,18 +175,18 @@ export const MyTask = () => {
                         <span>(02)</span>
                       </h3>
                       <div className="crancy-todolist__task--button">
-                        <a href="#">
+                        <Link href="/MyTask/">
                           <img src="img/plus-icon-default.svg" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="/MyTask/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">UI Adjustments</a>
+                          <Link href="/MyTask/">UI Adjustments</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -208,19 +210,19 @@ export const MyTask = () => {
                           <img src="img/clock-icon.svg" /> 3 days left
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">Mobile Apps Fixing</a>
+                          <Link href="/MyTask/">Mobile Apps Fixing</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -244,19 +246,19 @@ export const MyTask = () => {
                           <img src="img/clock-icon.svg" /> 7 days left
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">UI Adjustments</a>
+                          <Link href="/MyTask/">UI Adjustments</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -280,19 +282,19 @@ export const MyTask = () => {
                           <img src="img/clock-icon.svg" /> 7 days left
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">Case Study</a>
+                          <Link href="/MyTask/">Case Study</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -316,12 +318,12 @@ export const MyTask = () => {
                           <img src="img/clock-icon.svg" /> 7 days left
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -333,18 +335,18 @@ export const MyTask = () => {
                         <span>(10)</span>
                       </h3>
                       <div className="crancy-todolist__task--button">
-                        <a href="#">
+                        <Link href="/MyTask/">
                           <img src="img/plus-icon-default.svg" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="/MyTask/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">Design Landign Page</a>
+                          <Link href="/MyTask/">Design Landign Page</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -368,19 +370,19 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">Website Design</a>
+                          <Link href="/MyTask/">Website Design</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -404,19 +406,19 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">NFT Lading Page</a>
+                          <Link href="/MyTask/">NFT Lading Page</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -440,19 +442,19 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">Design Landing Page</a>
+                          <Link href="/MyTask/">Design Landing Page</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -476,12 +478,12 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -493,18 +495,18 @@ export const MyTask = () => {
                         <b className="crancy-color8">Done</b> <span>(10)</span>
                       </h3>
                       <div className="crancy-todolist__task--button">
-                        <a href="#">
+                        <Link href="/MyTask/">
                           <img src="img/plus-icon-default.svg" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="/MyTask/">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">NFT Website</a>
+                          <Link href="/MyTask/">NFT Website</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -528,19 +530,19 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 30
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">Saas Product</a>
+                          <Link href="/MyTask/">Saas Product</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -564,19 +566,19 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">BankCo </a>
+                          <Link href="/MyTask/">BankCo </Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -600,19 +602,19 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
                     <div className="crancy-single__task mg-top-30">
                       <div className="crancy-single__task--header mg-btm-5">
                         <h4 className="crancy-single__task--title m-0">
-                          <a href="#">Bizpa</a>
+                          <Link href="/MyTask/">Bizpa</Link>
                         </h4>
                         <div
                           className="crancy-single__task--toggle"
@@ -636,12 +638,12 @@ export const MyTask = () => {
                           <img src="img/calendar-icon-5.svg" /> Mar 20
                         </div>
                         <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                          <a href="#">
+                          <Link href="/MyTask/">
                             <img src="img/author-1.png" alt="author-img" />
-                          </a>
-                          <a href="#">
+                          </Link>
+                          <Link href="/MyTask/">
                             <img src="img/author-2.png" alt="author-img" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

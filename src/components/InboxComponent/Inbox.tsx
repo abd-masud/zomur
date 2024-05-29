@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Inbox = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -15,9 +17,9 @@ export const Inbox = () => {
                             Messages (22)
                           </h4>
                           <div className="crancy-chatbox__edit">
-                            <a href="#">
+                            <Link href="/Inbox/">
                               <img src="img/edit-icon2.svg" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
 
@@ -71,9 +73,9 @@ export const Inbox = () => {
                             </svg>
                             Pinned Messages <span>(3)</span>
                           </h4>
-                          <a href="#">
+                          <Link href="/Inbox/">
                             <img src="img/toggle-icon-3.svg" />
-                          </a>
+                          </Link>
                         </div>
 
                         <ul className="crancy-chatbox__list">
@@ -169,9 +171,9 @@ export const Inbox = () => {
                             </svg>
                             All Messages <span>(22)</span>
                           </h4>
-                          <a href="#">
+                          <Link href="/Inbox/">
                             <img src="img/toggle-icon-3.svg" />
-                          </a>
+                          </Link>
                         </div>
 
                         <ul className="crancy-chatbox__list">
@@ -367,15 +369,15 @@ export const Inbox = () => {
                             </div>
                           </div>
                           <div className="crancy-chatbox__toggle">
-                            <a href="#">
+                            <Link href="/Inbox/">
                               <img src="img/print-icon.svg" />
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/Inbox/">
                               <img src="img/target-icon.svg" />
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/Inbox/">
                               <img src="img/toggle-icon2.svg" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
 
@@ -503,13 +505,13 @@ export const Inbox = () => {
                                     </div>
                                     <div className="crancy-chatbox__incoming-chat crancy-chatbox__incoming-chat__file">
                                       <p className="crancy-chatbox__incoming-text">
-                                        <a
-                                          href="#"
+                                        <Link
+                                          href="/Inbox/"
                                           className="text-white crancy-flex-between"
                                         >
                                           Download
                                           <i className="fas fa-download"></i>
-                                        </a>
+                                        </Link>
                                       </p>
                                     </div>
                                     <p className="crancy-chatbox__time crancy-chatbox__time-two">
@@ -538,26 +540,26 @@ export const Inbox = () => {
                                 <div className="crancy-chatbox__button">
                                   <div className="crancy-chatbox__button-inline">
                                     <div className="crancy-chatbox__button-inline__single crancy-chatbox__button-inline__highlights">
-                                      <a href="#">
+                                      <Link href="/Inbox/">
                                         <img src="img/bold-icon.svg" />
-                                      </a>
-                                      <a href="#">
+                                      </Link>
+                                      <Link href="/Inbox/">
                                         <img src="img/italic-icon.svg" />
-                                      </a>
-                                      <a href="#">
+                                      </Link>
+                                      <Link href="/Inbox/">
                                         <img src="img/underline-icon.svg" />
-                                      </a>
+                                      </Link>
                                     </div>
                                     <div className="crancy-chatbox__button-inline__single crancy-chatbox__button-inline__link">
-                                      <a href="#">
+                                      <Link href="/Inbox/">
                                         <img src="img/link-icon.svg" />
-                                      </a>
-                                      <a href="#">
+                                      </Link>
+                                      <Link href="/Inbox/">
                                         <img src="img/imoji-icon.svg" />
-                                      </a>
-                                      <a href="#">
+                                      </Link>
+                                      <Link href="/Inbox/">
                                         <img src="img/photo-icon.svg" />
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="crancy-chatbox__submit">
@@ -583,9 +585,9 @@ export const Inbox = () => {
                             User Info
                           </h3>
                           <div className="crancy-chatbox__edit">
-                            <a href="#">
+                            <Link href="/Inbox/">
                               <img src="img/close-icon.svg" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="crancy-chatbox-uinfo__thumb text-center mg-top-30">
@@ -617,18 +619,21 @@ export const Inbox = () => {
                                     <img src="img/file-icon1.svg" alt="#" />
                                   </div>
                                   <div className="crancy-chat-box-uinfo__ititle">
-                                    <a
-                                      href="#"
+                                    <Link
+                                      href="/Inbox/"
                                       className="crancy-bcolor crancy-f-semi"
                                     >
                                       Reference.zip
-                                    </a>
+                                    </Link>
                                     <p>2 MB</p>
                                   </div>
                                 </div>
-                                <a className="crancy-chat-box-uinfo__delete">
+                                <Link
+                                  href="/Inbox/"
+                                  className="crancy-chat-box-uinfo__delete"
+                                >
                                   <img src="img/delete-icon.svg" />
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li>
@@ -638,18 +643,21 @@ export const Inbox = () => {
                                     <img src="img/file-icon1.svg" alt="#" />
                                   </div>
                                   <div className="crancy-chat-box-uinfo__ititle">
-                                    <a
-                                      href="#"
+                                    <Link
+                                      href="/Inbox/"
                                       className="crancy-bcolor crancy-f-semi"
                                     >
                                       Doc0001.docx
-                                    </a>
+                                    </Link>
                                     <p>1,025 KB</p>
                                   </div>
                                 </div>
-                                <a className="crancy-chat-box-uinfo__delete">
+                                <Link
+                                  href="/Inbox/"
+                                  className="crancy-chat-box-uinfo__delete"
+                                >
                                   <img src="img/delete-icon.svg" />
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li>
@@ -659,18 +667,21 @@ export const Inbox = () => {
                                     <img src="img/file-icon4.svg" alt="#" />
                                   </div>
                                   <div className="crancy-chat-box-uinfo__ititle">
-                                    <a
-                                      href="#"
+                                    <Link
+                                      href="/Inbox/"
                                       className="crancy-bcolor crancy-f-semi"
                                     >
                                       Filex.pdf
-                                    </a>
+                                    </Link>
                                     <p>2,25 KB</p>
                                   </div>
                                 </div>
-                                <a className="crancy-chat-box-uinfo__delete">
+                                <Link
+                                  href="/Inbox/"
+                                  className="crancy-chat-box-uinfo__delete"
+                                >
                                   <img src="img/delete-icon.svg" />
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>
@@ -687,18 +698,21 @@ export const Inbox = () => {
                                     <img src="img/link-icon2.svg" alt="#" />
                                   </div>
                                   <div className="crancy-chat-box-uinfo__ititle">
-                                    <a
-                                      href="#"
+                                    <Link
+                                      href="/Inbox/"
                                       className="crancy-bcolor crancy-f-semi"
                                     >
                                       muz.li
-                                    </a>
+                                    </Link>
                                     <p>https://muz.li.com</p>
                                   </div>
                                 </div>
-                                <a className="crancy-chat-box-uinfo__delete">
+                                <Link
+                                  href="/Inbox/"
+                                  className="crancy-chat-box-uinfo__delete"
+                                >
                                   <img src="img/delete-icon.svg" />
-                                </a>
+                                </Link>
                               </div>
                             </li>
                             <li>
@@ -708,18 +722,21 @@ export const Inbox = () => {
                                     <img src="img/link-icon2.svg" alt="#" />
                                   </div>
                                   <div className="crancy-chat-box-uinfo__ititle">
-                                    <a
-                                      href="#"
+                                    <Link
+                                      href="/Inbox/"
                                       className="crancy-bcolor crancy-f-semi"
                                     >
                                       Dribbble
-                                    </a>
+                                    </Link>
                                     <p>https://dribbble.com/rf...</p>
                                   </div>
                                 </div>
-                                <a className="crancy-chat-box-uinfo__delete">
+                                <Link
+                                  href="/Inbox/"
+                                  className="crancy-chat-box-uinfo__delete"
+                                >
                                   <img src="img/delete-icon.svg" />
-                                </a>
+                                </Link>
                               </div>
                             </li>
                           </ul>

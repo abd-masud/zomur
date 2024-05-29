@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const AddProduct = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -12,9 +14,9 @@ export const AddProduct = () => {
                       <div className="crancy-product-card">
                         <h4 className="crancy-product-card__title">
                           Product Information
-                          <a href="#">
+                          <Link href="/AddProduct/">
                             <img src="img/alert-circle.svg" />
-                          </a>
+                          </Link>
                         </h4>
                         <div className="crancy__item-form--group mg-top-25">
                           <label className="crancy__item-label crancy__item-label-product">
@@ -57,9 +59,9 @@ export const AddProduct = () => {
                       <div className="crancy-product-card">
                         <h4 className="crancy-product-card__title">
                           Product Image
-                          <a href="#">
+                          <Link href="/AddProduct/">
                             <img src="img/alert-circle.svg" />
-                          </a>
+                          </Link>
                         </h4>
                         <p>
                           Select a product photo or drag and drop up to 5 photos
@@ -112,9 +114,9 @@ export const AddProduct = () => {
                       <div className="crancy-product-card">
                         <h4 className="crancy-product-card__title">
                           Detail Product
-                          <a href="#">
+                          <Link href="/AddProduct/">
                             <img src="img/alert-circle.svg" />
-                          </a>
+                          </Link>
                         </h4>
                         <div className="crancy__item-form--group mg-top-25">
                           <label className="crancy__item-label crancy__item-label-product crancy-flex-between">
@@ -143,16 +145,16 @@ export const AddProduct = () => {
                       <div className="crancy-product-card">
                         <h4 className="crancy-product-card__title">
                           Variants
-                          <a href="#">
+                          <Link href="/AddProduct/">
                             <img src="img/alert-circle.svg" />
-                          </a>
+                          </Link>
                         </h4>
                         <div className="crancy__item-form--group mg-top-25">
                           <label className="crancy__item-label crancy__item-label-product crancy-flex-between">
                             Variant 1
-                            <a href="#">
+                            <Link href="/AddProduct/">
                               <img src="img/trash-icon.svg" />
-                            </a>
+                            </Link>
                           </label>
                           <select
                             className="form-select crancy__item-input"
@@ -174,12 +176,18 @@ export const AddProduct = () => {
                               required
                             />
                             <div className="crancy__item-form--add__group">
-                              <a className="crancy__item-form--add__single">
+                              <Link
+                                href="/AddProduct/"
+                                className="crancy__item-form--add__single"
+                              >
                                 EU-39 <i className="fas fa-times"></i>
-                              </a>
-                              <a className="crancy__item-form--add__single">
+                              </Link>
+                              <Link
+                                href="/AddProduct/"
+                                className="crancy__item-form--add__single"
+                              >
                                 EU-39 <i className="fas fa-times"></i>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -311,9 +319,12 @@ export const AddProduct = () => {
                   <div className="crancy-sidebar__single">
                     <div className="crancy-sidebar__heading">
                       <h4 className="crancy-sidebar__title">Sales history</h4>
-                      <a href="#" className="crancy-sidebar__toggles">
+                      <Link
+                        href="/AddProduct/"
+                        className="crancy-sidebar__toggles"
+                      >
                         <img src="img/toggle-icon2.svg" />
-                      </a>
+                      </Link>
                     </div>
 
                     <ul className="crancy-sidebar__historylist">
@@ -322,11 +333,11 @@ export const AddProduct = () => {
                           <div className="crancy-sidebar__history-thumb">
                             <img src="img/sales-history-1.png" alt="#" />
                             <h4>
-                              <a href="#">
+                              <Link href="/AddProduct/">
                                 <span className="crancy-sidebar__history-title">
                                   Rompi Berkancing
                                 </span>
-                              </a>
+                              </Link>
                               <b className="crancy-sidebar__history-name crancy-pcolor">
                                 $400.98<span>April 29, 2022</span>
                               </b>
@@ -342,11 +353,11 @@ export const AddProduct = () => {
                           <div className="crancy-sidebar__history-thumb">
                             <img src="img/sales-history-2.png" alt="#" />
                             <h4>
-                              <a href="#">
+                              <Link href="/AddProduct/">
                                 <span className="crancy-sidebar__history-title">
                                   Blazer assorted pocket
                                 </span>
-                              </a>
+                              </Link>
                               <b className="crancy-sidebar__history-name crancy-pcolor">
                                 $550.75<span>April 28, 2022</span>
                               </b>
@@ -362,11 +373,11 @@ export const AddProduct = () => {
                           <div className="crancy-sidebar__history-thumb">
                             <img src="img/sales-history-3.png" alt="#" />
                             <h4>
-                              <a href="#">
+                              <Link href="/AddProduct/">
                                 <span className="crancy-sidebar__history-title">
                                   Pattern top with knot
                                 </span>
-                              </a>
+                              </Link>
                               <b className="crancy-sidebar__history-name crancy-pcolor">
                                 $210.98<span>April 25, 2022</span>
                               </b>

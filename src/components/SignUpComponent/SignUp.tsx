@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const SignUp = () => {
   return (
     <section className="crancy-wc crancy-wc__full crancy-bg-cover">
@@ -5,9 +7,9 @@ export const SignUp = () => {
         <div className="crancy-wc__form--middle">
           <div className="crancy-wc__form-inner">
             <div className="crancy-wc__logo">
-              <a href="index.html">
+              <Link href="/">
                 <img src="img/logo.png" alt="#" />
-              </a>
+              </Link>
             </div>
             <div className="crancy-wc__form-inside">
               <div className="crancy-wc__form-middle">
@@ -19,7 +21,7 @@ export const SignUp = () => {
                   </div>
                   <form
                     className="crancy-wc__form-main"
-                    action="index.html"
+                    action="/"
                     method="post"
                   >
                     <div className="row">
@@ -93,7 +95,7 @@ export const SignUp = () => {
                           />
                           <label htmlFor="checkbox">
                             By proceeding, you agree to the
-                            <a href="#">Terms and Conditions</a>
+                            <Link href="/SignUp/">Terms and Conditions</Link>
                           </label>
                         </div>
                       </div>
@@ -132,7 +134,7 @@ export const SignUp = () => {
                       <div className="crancy-wc__bottom">
                         <p className="crancy-wc__text">
                           Already have an account ?
-                          <a href="create-account.html">Sign in</a>
+                          <Link href="/Login/">Sign in</Link>
                         </p>
                       </div>
                     </div>
@@ -142,13 +144,13 @@ export const SignUp = () => {
                   <div className="crancy-wc__footer">
                     <ul className="crancy-wc__footer--list list-none">
                       <li>
-                        <a href="#">Terms & Condition</a>
+                        <Link href="/SignUp/">Terms & Condition</Link>
                       </li>
                       <li>
-                        <a href="#">Privacy Policy</a>
+                        <Link href="/SignUp/">Privacy Policy</Link>
                       </li>
                       <li>
-                        <a href="#">Help</a>
+                        <Link href="/SignUp/">Help</Link>
                       </li>
                     </ul>
                     <div className="crancy-wc__footer--languages">
@@ -160,7 +162,8 @@ export const SignUp = () => {
                     </div>
                   </div>
                   <p className="crancy-wc__footer--copyright">
-                    @ 2023 <a href="#">Zomur.</a> All Right Reserved.
+                    @ 2023 <Link href="/SignUp/">Zomur.</Link> All Right
+                    Reserved.
                   </p>
                 </div>
               </div>

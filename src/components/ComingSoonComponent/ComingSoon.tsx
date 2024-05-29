@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const ComingSoon = () => {
   return (
     <div
@@ -36,34 +38,34 @@ export const ComingSoon = () => {
               </form>
               <ul className="crancy-coming-soon__slist m-0">
                 <li>
-                  <a href="#">
+                  <Link href="/ComingSoon/">
                     {" "}
                     <i className="fa-brands fa-instagram"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="/ComingSoon/">
                     {" "}
                     <i className="fa-brands fa-twitter"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="/ComingSoon/">
                     {" "}
                     <i className="fa-brands fa-facebook"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="/ComingSoon/">
                     {" "}
                     <i className="fa-brands fa-skype"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <div className="crancy-coming-soon__button">
-                <a className="crancy-btn" href="index.html">
+                <Link className="crancy-btn" href="/">
                   Go Back
-                </a>
+                </Link>
               </div>
             </div>
           </div>

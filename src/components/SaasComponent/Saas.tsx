@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Saas = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -22,9 +24,12 @@ export const Saas = () => {
                           look in when locating modules.
                         </p>
                         <div className="crancy-hbanner__button">
-                          <a href="#" className="crancy-btn crancy-ybcolor">
+                          <Link
+                            href="/Saas/"
+                            className="crancy-btn crancy-ybcolor"
+                          >
                             Get Started
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -41,19 +46,19 @@ export const Saas = () => {
                         </div>
                         <div className="crancy-progress-card__authors">
                           <div className="crancy-tasksingle__group crancy-tasksingle__group--authors">
-                            <a href="#">
+                            <Link href="/Saas/">
                               <img src="img/author-1.png" alt="author-img" />
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/Saas/">
                               <img src="img/author-2.png" alt="author-img" />
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              href="/Saas/"
                               className="crancy-tasksingle__group--more"
                             >
                               <span>35</span>
                               <img src="img/author-5.png" alt="author-img" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -99,19 +104,19 @@ export const Saas = () => {
                         </div>
                         <div className="crancy-progress-card__authors">
                           <div className="crancy-tasksingle__group crancy-tasksingle__group--authors">
-                            <a href="#">
+                            <Link href="/Saas/">
                               <img src="img/author-1.png" alt="author-img" />
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/Saas/">
                               <img src="img/author-2.png" alt="author-img" />
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              href="/Saas/"
                               className="crancy-tasksingle__group--more"
                             >
                               <span>35</span>
                               <img src="img/author-5.png" alt="author-img" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -157,19 +162,19 @@ export const Saas = () => {
                         </div>
                         <div className="crancy-progress-card__authors">
                           <div className="crancy-tasksingle__group crancy-tasksingle__group--authors">
-                            <a href="#">
+                            <Link href="/Saas/">
                               <img src="img/author-1.png" alt="author-img" />
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/Saas/">
                               <img src="img/author-2.png" alt="author-img" />
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              href="/Saas/"
                               className="crancy-tasksingle__group--more"
                             >
                               <span>35</span>
                               <img src="img/author-5.png" alt="author-img" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -220,7 +225,7 @@ export const Saas = () => {
                             id="list-tab"
                             role="tablist"
                           >
-                            <a
+                            <Link
                               className="list-group-item active"
                               data-bs-toggle="list"
                               href="#crancy-chart__s1"
@@ -241,8 +246,8 @@ export const Saas = () => {
                                 />
                               </svg>
                               Income
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               className="list-group-item"
                               data-bs-toggle="list"
                               href="#crancy-chart__s1"
@@ -263,27 +268,27 @@ export const Saas = () => {
                                 />
                               </svg>
                               Expense
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="crancy-customer-filter m-0">
                           <div className="crancy-customer-filter__single">
-                            <a
-                              href="#"
+                            <Link
+                              href="/Saas/"
                               className="crancy-customer-filter__single--button"
                             >
                               <img src="img/calendar-icon-2.svg" />
                               April 11 - April 24
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-customer-filter__single">
-                            <a
-                              href="#"
+                            <Link
+                              href="/Saas/"
                               className="crancy-customer-filter__single--button"
                             >
                               <img src="img/download-icon2.svg" />
                               Download
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -346,31 +351,31 @@ export const Saas = () => {
                       </div>
                     </div>
                     <div className="crancy-customer-filter__single">
-                      <a
-                        href="#"
+                      <Link
+                        href="/Saas/"
                         className="crancy-customer-filter__single--button"
                       >
                         <img src="img/filter-icon3.svg" />
                         Filters
-                      </a>
+                      </Link>
                     </div>
                     <div className="crancy-customer-filter__single">
-                      <a
-                        href="#"
+                      <Link
+                        href="/Saas/"
                         className="crancy-customer-filter__single--button"
                       >
                         <img src="img/calendar-icon-2.svg" />
                         April 11 - April 24
-                      </a>
+                      </Link>
                     </div>
                     <div className="crancy-customer-filter__single">
-                      <a
-                        href="#"
+                      <Link
+                        href="/Saas/"
                         className="crancy-customer-filter__single--button"
                       >
                         <img src="img/download-icon2.svg" />
                         Download
-                      </a>
+                      </Link>
                     </div>
                   </div>
 
@@ -449,9 +454,9 @@ export const Saas = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/Saas/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -499,9 +504,9 @@ export const Saas = () => {
                               Cancelled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/Saas/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -549,9 +554,9 @@ export const Saas = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/Saas/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -599,9 +604,9 @@ export const Saas = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/Saas/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -649,9 +654,9 @@ export const Saas = () => {
                               Cancelled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/Saas/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -699,9 +704,9 @@ export const Saas = () => {
                               Unfulfilled
                             </div>
                             <div className="crancy-table__action">
-                              <a href="#">
+                              <Link href="/Saas/">
                                 <img src="img/dots.svg" />
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </td>
@@ -725,30 +730,30 @@ export const Saas = () => {
                           id="list-tab"
                           role="tablist"
                         >
-                          <a
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#crancy-spending-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Week
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item active"
                             data-bs-toggle="list"
                             href="#crancy-spending-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Month
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#crancy-spending-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Year
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="tab-content" id="nav-tabContent">
@@ -797,9 +802,9 @@ export const Saas = () => {
                         <h4 className="crancy-sidebar__title">
                           Total view Performance
                         </h4>
-                        <a href="#" className="crancy-sidebar__toggles">
+                        <Link href="/Saas/" className="crancy-sidebar__toggles">
                           <img src="img/toggle-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="crancy-total-view__inner text-center">
@@ -814,9 +819,9 @@ export const Saas = () => {
                           Your spending decreased -7.8% from last month. Good
                           job!
                         </p>
-                        <a href="#" className="crancy-btn mg-top-20">
+                        <Link href="/Saas/" className="crancy-btn mg-top-20">
                           See More
-                        </a>
+                        </Link>
                         <ul className="crancy-progress-list crancy-flex__center crancy-progress-list--v2 crancy-progress-list__inline mg-top-40">
                           <li>
                             <span className="crancy-progress-list__color"></span>
@@ -842,22 +847,22 @@ export const Saas = () => {
                           id="list-tab"
                           role="tablist"
                         >
-                          <a
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#crancy-traffic-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Month
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item active"
                             data-bs-toggle="list"
                             href="#crancy-traffic-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Week
-                          </a>
+                          </Link>
                         </div>
                       </div>
 
@@ -924,9 +929,12 @@ export const Saas = () => {
                       </div>
 
                       <div className="crancy-view-all pd-left-30 pd-right-30 pd-0 mg-top-30">
-                        <a className="crancy-btn crancy-btn__view crancy-full-width">
+                        <Link
+                          href="/Saas/"
+                          className="crancy-btn crancy-btn__view crancy-full-width"
+                        >
                           View All
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

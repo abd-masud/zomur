@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Analytics = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -17,7 +19,7 @@ export const Analytics = () => {
                             id="list-tab"
                             role="tablist"
                           >
-                            <a
+                            <Link
                               className="list-group-item active"
                               data-bs-toggle="list"
                               href="#crancy-chart__s1"
@@ -38,8 +40,8 @@ export const Analytics = () => {
                                 />
                               </svg>
                               Income
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               className="list-group-item"
                               data-bs-toggle="list"
                               href="#crancy-chart__s1"
@@ -60,27 +62,27 @@ export const Analytics = () => {
                                 />
                               </svg>
                               Expense
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="crancy-customer-filter pd-0 m-0">
                           <div className="crancy-customer-filter__single">
-                            <a
-                              href="#"
+                            <Link
+                              href="/Analytics/"
                               className="crancy-customer-filter__single--button"
                             >
                               <img src="img/calendar-icon-2.svg" />
                               April 11 - April 24
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-customer-filter__single">
-                            <a
-                              href="#"
+                            <Link
+                              href="/Analytics/"
                               className="crancy-customer-filter__single--button"
                             >
                               <img src="img/download-icon2.svg" />
                               Download
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -107,10 +109,10 @@ export const Analytics = () => {
                     <h3 className="crancy-table__title mb-0">
                       Recent Marketing
                     </h3>
-                    <a className="crancy-table__filter">
+                    <Link href="/Analytics/" className="crancy-table__filter">
                       <img src="img/crancy-filter.svg" />
                       Filter
-                    </a>
+                    </Link>
                   </div>
 
                   <table
@@ -603,30 +605,30 @@ export const Analytics = () => {
                           id="list-tab"
                           role="tablist"
                         >
-                          <a
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#crancy-spending-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Week
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item active"
                             data-bs-toggle="list"
                             href="#crancy-spending-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Month
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#crancy-spending-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Year
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="tab-content" id="nav-tabContent">
@@ -673,9 +675,12 @@ export const Analytics = () => {
                     <div className="crancy-total-view">
                       <div className="crancy-sidebar__heading crancy-sidebar__heading--bordered">
                         <h4 className="crancy-sidebar__title">Performance</h4>
-                        <a href="#" className="crancy-sidebar__toggles">
+                        <Link
+                          href="/Analytics/"
+                          className="crancy-sidebar__toggles"
+                        >
                           <img src="img/toggle-icon2.svg" />
-                        </a>
+                        </Link>
                       </div>
 
                       <div className="crancy-total-view__inner crancy-total-view__inner_2 text-center">
@@ -688,9 +693,12 @@ export const Analytics = () => {
                           Your spending decreased -7.8% from last month. Good
                           job!
                         </p>
-                        <a href="#" className="crancy-btn mg-top-20">
+                        <Link
+                          href="/Analytics/"
+                          className="crancy-btn mg-top-20"
+                        >
                           See More
-                        </a>
+                        </Link>
                         <ul className="crancy-progress-list crancy-flex__center crancy-progress-list--v2 crancy-progress-list__inline mg-top-40">
                           <li>
                             <span className="crancy-progress-list__color"></span>

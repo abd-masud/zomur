@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const ProfileInfo = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -15,7 +17,7 @@ export const ProfileInfo = () => {
                           id="list-tab"
                           role="tablist"
                         >
-                          <a
+                          <Link
                             className="list-group-item active"
                             data-bs-toggle="list"
                             href="#id1"
@@ -43,8 +45,8 @@ export const ProfileInfo = () => {
                               Personal Informations
                               <span>Est arcu pharetra proin pellentesque</span>
                             </h4>
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#id2"
@@ -69,8 +71,8 @@ export const ProfileInfo = () => {
                               Notification Setting
                               <span>Est arcu pharetra proin pellentesque</span>
                             </h4>
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#id3"
@@ -95,8 +97,8 @@ export const ProfileInfo = () => {
                               Program & Resources
                               <span>Est arcu pharetra proin pellentesque</span>
                             </h4>
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#id4"
@@ -131,8 +133,8 @@ export const ProfileInfo = () => {
                               Payment Method
                               <span>Est arcu pharetra proin pellentesque</span>
                             </h4>
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#id5"
@@ -153,8 +155,8 @@ export const ProfileInfo = () => {
                               FAQ
                               <span>Est arcu pharetra proin pellentesque</span>
                             </h4>
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#id6"
@@ -180,8 +182,8 @@ export const ProfileInfo = () => {
                               Security
                               <span>Est arcu pharetra proin pellentesque</span>
                             </h4>
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#id7"
@@ -206,7 +208,7 @@ export const ProfileInfo = () => {
                               Terms and Conditions
                               <span>Est arcu pharetra proin pellentesque</span>
                             </h4>
-                          </a>
+                          </Link>
                         </div>
 
                         <div
@@ -222,12 +224,12 @@ export const ProfileInfo = () => {
                             Create A Premium <br />
                             Dashboard.
                           </h4>
-                          <a
-                            href="#"
+                          <Link
+                            href="/ProfileInfo/"
                             className="crancy-btn crancy-ybcolor mg-top-15"
                           >
                             Discover More
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -1044,7 +1046,10 @@ export const ProfileInfo = () => {
                                         </li>
                                         <li>
                                           <div className="crancy-folder-list__single crancy-folder-list__single--add">
-                                            <a className="crancy-folder-list__add">
+                                            <Link
+                                              href=""
+                                              className="crancy-folder-list__add"
+                                            >
                                               <span>
                                                 <svg
                                                   xmlns="http://www.w3.org/2000/svg"
@@ -1064,7 +1069,7 @@ export const ProfileInfo = () => {
                                               <h4 className="crancy-folder-list__add--title">
                                                 Add Folder
                                               </h4>
-                                            </a>
+                                            </Link>
                                           </div>
                                         </li>
                                       </ul>
@@ -1172,7 +1177,9 @@ export const ProfileInfo = () => {
                                           <li>
                                             Location
                                             <span>
-                                              <a href="#">My Files</a>
+                                              <Link href="/ProfileInfo/">
+                                                My Files
+                                              </Link>
                                             </span>
                                           </li>
                                           <li>
@@ -1234,9 +1241,9 @@ export const ProfileInfo = () => {
                                             src="img/payment-1.png"
                                             alt="#"
                                           />
-                                          <a href="#">
+                                          <Link href="/ProfileInfo/">
                                             <img src="img/toggle-icon-3.svg" />
-                                          </a>
+                                          </Link>
                                         </div>
                                         <div className="crancy-paymentm__content">
                                           <h4 className="crancy-paymentm__title crancy-font-weight-bold">
@@ -1256,9 +1263,9 @@ export const ProfileInfo = () => {
                                             src="img/payment-2.png"
                                             alt="#"
                                           />
-                                          <a href="#">
+                                          <Link href="/ProfileInfo/">
                                             <img src="img/toggle-icon-3.svg" />
-                                          </a>
+                                          </Link>
                                         </div>
                                         <div className="crancy-paymentm__content">
                                           <h4 className="crancy-paymentm__title crancy-font-weight-bold">
@@ -1278,9 +1285,9 @@ export const ProfileInfo = () => {
                                             src="img/payment-3.png"
                                             alt="#"
                                           />
-                                          <a href="#">
+                                          <Link href="/ProfileInfo/">
                                             <img src="img/toggle-icon-3.svg" />
-                                          </a>
+                                          </Link>
                                         </div>
                                         <div className="crancy-paymentm__content">
                                           <h4 className="crancy-paymentm__title crancy-font-weight-bold">
@@ -1300,9 +1307,9 @@ export const ProfileInfo = () => {
                                             src="img/payment-4.png"
                                             alt="#"
                                           />
-                                          <a href="#">
+                                          <Link href="/ProfileInfo/">
                                             <img src="img/toggle-icon-3.svg" />
-                                          </a>
+                                          </Link>
                                         </div>
                                         <div className="crancy-paymentm__content">
                                           <h4 className="crancy-paymentm__title crancy-font-weight-bold">
@@ -1322,9 +1329,9 @@ export const ProfileInfo = () => {
                                             src="img/payment-5.png"
                                             alt="#"
                                           />
-                                          <a href="#">
+                                          <Link href="/ProfileInfo/">
                                             <img src="img/toggle-icon-3.svg" />
-                                          </a>
+                                          </Link>
                                         </div>
                                         <div className="crancy-paymentm__content">
                                           <h4 className="crancy-paymentm__title crancy-font-weight-bold">
@@ -1354,9 +1361,12 @@ export const ProfileInfo = () => {
                                             <path d="M21.0005 5H15.5005C15.0905 5 14.7505 4.66 14.7505 4.25C14.7505 3.84 15.0905 3.5 15.5005 3.5H21.0005C21.4105 3.5 21.7505 3.84 21.7505 4.25C21.7505 4.66 21.4105 5 21.0005 5Z" />
                                             <path d="M18.2505 7.75C17.8405 7.75 17.5005 7.41 17.5005 7V1.5C17.5005 1.09 17.8405 0.75 18.2505 0.75C18.6605 0.75 19.0005 1.09 19.0005 1.5V7C19.0005 7.41 18.6605 7.75 18.2505 7.75Z" />
                                           </svg>
-                                          <a className="crancy-paymentm__add--title">
+                                          <Link
+                                            href="/Wallet/"
+                                            className="crancy-paymentm__add--title"
+                                          >
                                             Add wallet
-                                          </a>
+                                          </Link>
                                         </div>
                                       </div>
                                     </div>
@@ -1372,12 +1382,12 @@ export const ProfileInfo = () => {
                                                 <h4 className="crancy-sidebar__title">
                                                   My Wallet
                                                 </h4>
-                                                <a
-                                                  href="#"
+                                                <Link
+                                                  href="/ProfileInfo/"
                                                   className="crancy-sidebar__toggles"
                                                 >
                                                   <img src="img/inline-toggle.svg" />
-                                                </a>
+                                                </Link>
                                               </div>
 
                                               <div
@@ -1419,7 +1429,8 @@ export const ProfileInfo = () => {
                                                   </div>
                                                 </div>
                                                 <div className="crancy-wallet-card__buttons">
-                                                  <a
+                                                  <Link
+                                                    href="/ProfileInfo/"
                                                     data-bs-toggle="modal"
                                                     data-bs-target="#popup_modal_1"
                                                     className="crancy-btn crancy-ybcolor"
@@ -1443,9 +1454,9 @@ export const ProfileInfo = () => {
                                                       />
                                                     </svg>
                                                     Deposit
-                                                  </a>
-                                                  <a
-                                                    href="#"
+                                                  </Link>
+                                                  <Link
+                                                    href="/ProfileInfo/"
                                                     className="crancy-btn crancy-white"
                                                   >
                                                     <svg
@@ -1467,7 +1478,7 @@ export const ProfileInfo = () => {
                                                       />
                                                     </svg>
                                                     Withdraw
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </div>
                                             </div>
@@ -1514,12 +1525,12 @@ export const ProfileInfo = () => {
                                                       placeholder="$1,24"
                                                     />
                                                     <div className="crancy-wallet-form__amount-author">
-                                                      <a href="#">
+                                                      <Link href="/ProfileInfo/">
                                                         <img src="img/amount-author1.png" />
-                                                      </a>
-                                                      <a href="#">
+                                                      </Link>
+                                                      <Link href="/ProfileInfo/">
                                                         <img src="img/amount-author2.png" />
-                                                      </a>
+                                                      </Link>
                                                     </div>
                                                   </div>
                                                 </div>
@@ -1612,9 +1623,9 @@ export const ProfileInfo = () => {
                                                   Active
                                                 </div>
                                                 <div className="crancy-table__trash">
-                                                  <a href="#">
+                                                  <Link href="/ProfileInfo/">
                                                     <i className="fa-solid fa-trash-can"></i>
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </div>
                                             </div>
@@ -1657,9 +1668,9 @@ export const ProfileInfo = () => {
                                                   Unactive
                                                 </div>
                                                 <div className="crancy-table__trash">
-                                                  <a href="#">
+                                                  <Link href="/ProfileInfo/">
                                                     <i className="fa-solid fa-trash-can"></i>
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </div>
                                             </div>
@@ -1702,9 +1713,9 @@ export const ProfileInfo = () => {
                                                   Active
                                                 </div>
                                                 <div className="crancy-table__trash">
-                                                  <a href="#">
+                                                  <Link href="/ProfileInfo/">
                                                     <i className="fa-solid fa-trash-can"></i>
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </div>
                                             </div>
@@ -1747,9 +1758,9 @@ export const ProfileInfo = () => {
                                                   Active
                                                 </div>
                                                 <div className="crancy-table__trash">
-                                                  <a href="#">
+                                                  <Link href="/ProfileInfo/">
                                                     <i className="fa-solid fa-trash-can"></i>
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </div>
                                             </div>
@@ -1791,9 +1802,9 @@ export const ProfileInfo = () => {
                                                   Unactive
                                                 </div>
                                                 <div className="crancy-table__trash">
-                                                  <a href="#">
+                                                  <Link href="/ProfileInfo/">
                                                     <i className="fa-solid fa-trash-can"></i>
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </div>
                                             </div>
@@ -1836,9 +1847,9 @@ export const ProfileInfo = () => {
                                                   Active
                                                 </div>
                                                 <div className="crancy-table__trash">
-                                                  <a href="#">
+                                                  <Link href="/ProfileInfo/">
                                                     <i className="fa-solid fa-trash-can"></i>
-                                                  </a>
+                                                  </Link>
                                                 </div>
                                               </div>
                                             </div>
@@ -2109,9 +2120,12 @@ export const ProfileInfo = () => {
                                     Contact us and we’ll get back to you as soon
                                     as we can.
                                   </p>
-                                  <a href="#" className="crancy-btn mg-top-40">
+                                  <Link
+                                    href="/ProfileInfo/"
+                                    className="crancy-btn mg-top-40"
+                                  >
                                     Contact US
-                                  </a>
+                                  </Link>
                                 </div>
                               </div>
                             </div>
@@ -2212,62 +2226,62 @@ export const ProfileInfo = () => {
                                       id="list-tab"
                                       role="tablist"
                                     >
-                                      <a
+                                      <Link
                                         className="list-group-item active"
                                         data-bs-toggle="list"
                                         href="#crancy-side-tab-1"
                                         role="tab"
                                       >
                                         Introductions
-                                      </a>
-                                      <a
+                                      </Link>
+                                      <Link
                                         className="list-group-item"
                                         data-bs-toggle="list"
                                         href="#crancy-side-tab-1"
                                         role="tab"
                                       >
                                         Our Values
-                                      </a>
-                                      <a
+                                      </Link>
+                                      <Link
                                         className="list-group-item"
                                         data-bs-toggle="list"
                                         href="#crancy-side-tab-1"
                                         role="tab"
                                       >
                                         Why we process your information
-                                      </a>
-                                      <a
+                                      </Link>
+                                      <Link
                                         className="list-group-item"
                                         data-bs-toggle="list"
                                         href="#crancy-side-tab-1"
                                         role="tab"
                                       >
                                         Your rights over your information
-                                      </a>
-                                      <a
+                                      </Link>
+                                      <Link
                                         className="list-group-item"
                                         data-bs-toggle="list"
                                         href="#crancy-side-tab-1"
                                         role="tab"
                                       >
                                         Where we send your information
-                                      </a>
-                                      <a
+                                      </Link>
+                                      <Link
                                         className="list-group-item"
                                         data-bs-toggle="list"
                                         href="#crancy-side-tab-1"
                                         role="tab"
                                       >
                                         How we protect your information
-                                      </a>
-                                      <a
+                                      </Link>
+                                      <Link
                                         className="list-group-item"
                                         data-bs-toggle="list"
                                         href="#crancy-side-tab-1"
                                         role="tab"
                                       >
                                         How you can reach us
-                                      </a>
+                                      </Link>
                                     </div>
                                   </div>
                                   <div className="col-xxl-9 col-xl-8 col-12">

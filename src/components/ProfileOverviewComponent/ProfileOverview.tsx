@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const ProfileOverview = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -7,9 +9,12 @@ export const ProfileOverview = () => {
             <div className="crancy-userprofile__header mg-top-30">
               <img src="img/profile-cover.png" alt="#" />
               <div className="crancy-userprofile__right">
-                <a href="#" className="crancy-btn crancy-btn__profile">
+                <Link
+                  href="/ProfileOverview/"
+                  className="crancy-btn crancy-btn__profile"
+                >
                   Edit Profile
-                </a>
+                </Link>
               </div>
             </div>
             <div className="crancy-userprofile__bottom">
@@ -17,46 +22,49 @@ export const ProfileOverview = () => {
                 <img src="img/profile-single-thumb.png" alt="#" />
                 <div className="crancy-upcard__content">
                   <h4 className="crancy-upcard__title">AJOY Sarker</h4>
-                  <a href="#" className="crancy-upcard__text">
+                  <Link
+                    href="/ProfileOverview/"
+                    className="crancy-upcard__text"
+                  >
                     @ajoysarker
-                  </a>
+                  </Link>
                 </div>
               </div>
               <ul className="crancy-userprofile__list">
                 <li className="active">
-                  <a href="#">
+                  <Link href="/ProfileOverview/">
                     Post <span>10,3K</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="/ProfileOverview/">
                     Followers <span>2,564</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="/ProfileOverview/">
                     Following <span>3,154</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="/ProfileOverview/">
                     Likes <span>12,2k</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="/ProfileOverview/">
                     Photos <span>35</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="/ProfileOverview/">
                     Videos <span>24</span>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">
+                  <Link href="/ProfileOverview/">
                     Saved <span>18</span>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -82,9 +90,12 @@ export const ProfileOverview = () => {
                 <div className="bg-white crancy-bradius crancy-bradius mg-top-30">
                   <div className="crancy-flex-between crancy-border-bottom pd-15-20">
                     <h4 className="crancy-unfilled__title m-0">About Me</h4>
-                    <a href="#" className="crancy-sidebar__toggles">
+                    <Link
+                      href="/ProfileOverview/"
+                      className="crancy-sidebar__toggles"
+                    >
                       <img src="img/toggle-icon-3.svg" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="pd-15-20">
                     <div className="crancy-border-bottom pd-btm-15">
@@ -196,41 +207,41 @@ export const ProfileOverview = () => {
                 <div className="bg-white crancy-bradius pd-15-20 mg-top-30">
                   <div className="crancy-flex-between crancy-border-bottom pd-btm-15 mg-btm-20">
                     <h5 className="m-0">Photos and Videos</h5>
-                    <a href="#" className="crancy-color1">
+                    <Link href="/ProfileOverview/" className="crancy-color1">
                       SEE ALL
-                    </a>
+                    </Link>
                   </div>
 
                   <ul className="crancy-photos-list">
                     <li>
-                      <a href="img/gallery-1.png" data-fancybox="p_gallery">
+                      <Link href="img/gallery-1.png" data-fancybox="p_gallery">
                         <img src="img/photos-1.png" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="img/gallery-2.png" data-fancybox="p_gallery">
+                      <Link href="img/gallery-2.png" data-fancybox="p_gallery">
                         <img src="img/photos-2.png" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="img/gallery-3.png" data-fancybox="p_gallery">
+                      <Link href="img/gallery-3.png" data-fancybox="p_gallery">
                         <img src="img/photos-3.png" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="img/gallery-4.png" data-fancybox="p_gallery">
+                      <Link href="img/gallery-4.png" data-fancybox="p_gallery">
                         <img src="img/photos-4.png" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="img/gallery-5.png" data-fancybox="p_gallery">
+                      <Link href="img/gallery-5.png" data-fancybox="p_gallery">
                         <img src="img/photos-5.png" />
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="img/gallery-6.png" data-fancybox="p_gallery">
+                      <Link href="img/gallery-6.png" data-fancybox="p_gallery">
                         <img src="img/photos-6.png" />
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -241,9 +252,9 @@ export const ProfileOverview = () => {
                     <h4 className="crancy-unfilled__title m-0">
                       Post Something
                     </h4>
-                    {/* <!-- <a href="#" className="crancy-sidebar__toggles"
+                    {/* <!-- <Link href="/ProfileOverview/" className="crancy-sidebar__toggles"
                         ><img src="img/toggle-icon-4.svg"
-                      /></a> --> */}
+                      /></Link> --> */}
                   </div>
                   <div className="pd-15-20">
                     <form>
@@ -294,18 +305,21 @@ export const ProfileOverview = () => {
                       />
                       <div className="author-post-content">
                         <h6 className="m-0">
-                          <a href="#">
+                          <Link href="/ProfileOverview/">
                             <span className="crancy-sidebar__history-title">
                               Ahmad Nur Fawaid
                             </span>
-                          </a>
+                          </Link>
                         </h6>
                         <p>12 April at 09.28 PM</p>
                       </div>
                     </div>
-                    <a href="#" className="crancy-sidebar__toggles">
+                    <Link
+                      href="/ProfileOverview/"
+                      className="crancy-sidebar__toggles"
+                    >
                       <img src="img/toggle-icon-4.svg" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="pd-15-20">
                     <p className="m-0">
@@ -315,7 +329,7 @@ export const ProfileOverview = () => {
                   <div className="pd-top-20 mg-top-20 mg-btm-20 crancy-border-top mg-left-20 mg-right-20">
                     <ul className="author-post-meta">
                       <li>
-                        <a href="#">
+                        <Link href="/ProfileOverview/">
                           <span className="author-post-icon">
                             <svg
                               className=""
@@ -334,10 +348,10 @@ export const ProfileOverview = () => {
                             </svg>
                           </span>
                           25 Comments
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="/ProfileOverview/">
                           <span className="author-post-icon">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -355,10 +369,10 @@ export const ProfileOverview = () => {
                             </svg>
                           </span>
                           120k Likes
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="/ProfileOverview/">
                           <span className="author-post-icon">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -376,10 +390,10 @@ export const ProfileOverview = () => {
                             </svg>
                           </span>
                           231 Share
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="/ProfileOverview/">
                           <span className="author-post-icon">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -397,7 +411,7 @@ export const ProfileOverview = () => {
                             </svg>
                           </span>
                           12 Saved
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -506,18 +520,21 @@ export const ProfileOverview = () => {
                       />
                       <div className="author-post-content">
                         <h6 className="m-0">
-                          <a href="#">
+                          <Link href="/ProfileOverview/">
                             <span className="crancy-sidebar__history-title">
                               Ahmad Nur Fawaid
                             </span>
-                          </a>
+                          </Link>
                         </h6>
                         <p>12 April at 09.28 PM</p>
                       </div>
                     </div>
-                    <a href="#" className="crancy-sidebar__toggles">
+                    <Link
+                      href="/ProfileOverview/"
+                      className="crancy-sidebar__toggles"
+                    >
                       <img src="img/toggle-icon-4.svg" />
-                    </a>
+                    </Link>
                   </div>
                   <div className="pd-15-20">
                     <p className="m-0">
@@ -527,7 +544,7 @@ export const ProfileOverview = () => {
                     <div className="row author-post-images gap-small">
                       <div className="col-lg-6 col-md-6 col-12 mg-top-15">
                         <div className="posted-img">
-                          <a
+                          <Link
                             className="crancy-width-100"
                             href="img/post-image1.jpg"
                             data-fancybox="p_gallery2"
@@ -536,12 +553,12 @@ export const ProfileOverview = () => {
                               className="crancy-width-100"
                               src="img/post-image1.jpg"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-lg-6 col-md-6 col-12 mg-top-15">
                         <div className="posted-img">
-                          <a
+                          <Link
                             className="crancy-width-100"
                             href="img/post-image2.jpg"
                             data-fancybox="p_gallery2"
@@ -550,10 +567,10 @@ export const ProfileOverview = () => {
                               className="crancy-width-100"
                               src="img/post-image2.jpg"
                             />
-                          </a>
+                          </Link>
                         </div>
                         <div className="posted-img mg-top-15">
-                          <a
+                          <Link
                             href="img/post-image3.jpg"
                             data-fancybox="p_gallery2"
                             className="crancy-width-100"
@@ -562,7 +579,7 @@ export const ProfileOverview = () => {
                               className="crancy-width-100"
                               src="img/post-image3.jpg"
                             />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -570,7 +587,7 @@ export const ProfileOverview = () => {
                   <div className="pd-top-20 mg-top-20 mg-btm-20 crancy-border-top mg-left-20 mg-right-20">
                     <ul className="author-post-meta">
                       <li>
-                        <a href="#">
+                        <Link href="/ProfileOverview/">
                           <span className="author-post-icon">
                             <svg
                               className=""
@@ -589,10 +606,10 @@ export const ProfileOverview = () => {
                             </svg>
                           </span>
                           25 Comments
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="/ProfileOverview/">
                           <span className="author-post-icon">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -610,10 +627,10 @@ export const ProfileOverview = () => {
                             </svg>
                           </span>
                           120k Likes
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="/ProfileOverview/">
                           <span className="author-post-icon">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -631,10 +648,10 @@ export const ProfileOverview = () => {
                             </svg>
                           </span>
                           231 Share
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a href="#">
+                        <Link href="/ProfileOverview/">
                           <span className="author-post-icon">
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
@@ -652,7 +669,7 @@ export const ProfileOverview = () => {
                             </svg>
                           </span>
                           12 Saved
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -757,7 +774,7 @@ export const ProfileOverview = () => {
             <div className="profile-sidebar-meta crancy-flex-between crancy-flex-wrap crancy-flex-gap-15 mg-top-30">
               <h4 className="crancy-default__title m-0">Friends List</h4>
               <div className="crancy-flex-center crancy-flex-gap-5 crancy-flex-wrap">
-                <a className="profile-sidebar-meta__single">
+                <Link href="" className="profile-sidebar-meta__single">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -776,7 +793,7 @@ export const ProfileOverview = () => {
                       fill="#92929D"
                     />
                   </svg>
-                </a>
+                </Link>
                 <div className="crancy-table-meta__single profile-sidebar-meta__single">
                   <span className="crancy-table-meta__label">Sort by:</span>
                   <select
@@ -788,7 +805,10 @@ export const ProfileOverview = () => {
                     <option value="2">Trending</option>
                   </select>
                 </div>
-                <a className="profile-sidebar-meta__single profile-sidebar-meta__single--filter">
+                <Link
+                  href=""
+                  className="profile-sidebar-meta__single profile-sidebar-meta__single--filter"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -803,7 +823,7 @@ export const ProfileOverview = () => {
                       fill="#92929D"
                     />
                   </svg>
-                </a>
+                </Link>
               </div>
             </div>
             <div className="crancy-friends-card bg-white mg-top-30 crancy-bradius-12">
@@ -814,21 +834,24 @@ export const ProfileOverview = () => {
                 <div className="crancy-friends-card__author crancy-flex-gap-15 crancy-flex-center crancy-flex-wrap">
                   <img src="img/friend-profile1.jpg" />
                   <div className="crancy-friends-card__content">
-                    <a href="#">
+                    <Link href="/ProfileOverview/">
                       <h4 className="crancy-friends-card__title crancy-flex__column m-0 crancy-flex-gap-5">
                         Mayke Schuurs
                         <span className="crancy-f14 crancy-font-weight-regular paragraph-color">
                           @maymayke
                         </span>
                       </h4>
-                    </a>
+                    </Link>
                     <p className="mg-top-5">Not a Man but a Ghost 👻</p>
                   </div>
                 </div>
                 <div className="crancy-friends-card__content">
-                  <a href="#" className="crancy-btn crancy-btn__view">
+                  <Link
+                    href="/ProfileOverview/"
+                    className="crancy-btn crancy-btn__view"
+                  >
                     Following
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -841,21 +864,24 @@ export const ProfileOverview = () => {
                 <div className="crancy-friends-card__author crancy-flex-gap-15 crancy-flex-center crancy-flex-wrap">
                   <img src="img/friend-profile2.jpg" />
                   <div className="crancy-friends-card__content">
-                    <a href="#">
+                    <Link href="/ProfileOverview/">
                       <h4 className="crancy-friends-card__title crancy-flex__column m-0 crancy-flex-gap-5">
                         Mayke Schuurs
                         <span className="crancy-f14 crancy-font-weight-regular paragraph-color">
                           @Ralph Edwards
                         </span>
                       </h4>
-                    </a>
+                    </Link>
                     <p className="mg-top-5">Not a Man but a Ghost 👻</p>
                   </div>
                 </div>
                 <div className="crancy-friends-card__content">
-                  <a href="#" className="crancy-btn crancy-btn__view">
+                  <Link
+                    href="/ProfileOverview/"
+                    className="crancy-btn crancy-btn__view"
+                  >
                     Following
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -868,21 +894,24 @@ export const ProfileOverview = () => {
                 <div className="crancy-friends-card__author crancy-flex-gap-15 crancy-flex-center crancy-flex-wrap">
                   <img src="img/friend-profile3.jpg" />
                   <div className="crancy-friends-card__content">
-                    <a href="#">
+                    <Link href="/ProfileOverview/">
                       <h4 className="crancy-friends-card__title crancy-flex__column m-0 crancy-flex-gap-5">
                         Mayke Schuurs
                         <span className="crancy-f14 crancy-font-weight-regular paragraph-color">
                           @Bessie Cooper
                         </span>
                       </h4>
-                    </a>
+                    </Link>
                     <p className="mg-top-5">Not a Man but a Ghost 👻</p>
                   </div>
                 </div>
                 <div className="crancy-friends-card__content">
-                  <a href="#" className="crancy-btn crancy-btn__view">
+                  <Link
+                    href="/ProfileOverview/"
+                    className="crancy-btn crancy-btn__view"
+                  >
                     Following
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -895,21 +924,24 @@ export const ProfileOverview = () => {
                 <div className="crancy-friends-card__author crancy-flex-gap-15 crancy-flex-center crancy-flex-wrap">
                   <img src="img/friend-profile4.jpg" />
                   <div className="crancy-friends-card__content">
-                    <a href="#">
+                    <Link href="/ProfileOverview/">
                       <h4 className="crancy-friends-card__title crancy-flex__column m-0 crancy-flex-gap-5">
                         Mayke Schuurs
                         <span className="crancy-f14 crancy-font-weight-regular paragraph-color">
                           @Albert Flores
                         </span>
                       </h4>
-                    </a>
+                    </Link>
                     <p className="mg-top-5">Not a Man but a Ghost 👻</p>
                   </div>
                 </div>
                 <div className="crancy-friends-card__content">
-                  <a href="#" className="crancy-btn crancy-btn__view">
+                  <Link
+                    href="/ProfileOverview/"
+                    className="crancy-btn crancy-btn__view"
+                  >
                     Following
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -922,21 +954,24 @@ export const ProfileOverview = () => {
                 <div className="crancy-friends-card__author crancy-flex-gap-15 crancy-flex-center crancy-flex-wrap">
                   <img src="img/friend-profile5.jpg" />
                   <div className="crancy-friends-card__content">
-                    <a href="#">
+                    <Link href="/ProfileOverview/">
                       <h4 className="crancy-friends-card__title crancy-flex__column m-0 crancy-flex-gap-5">
                         Mayke Schuurs
                         <span className="crancy-f14 crancy-font-weight-regular paragraph-color">
                           @Devon Lane
                         </span>
                       </h4>
-                    </a>
+                    </Link>
                     <p className="mg-top-5">Not a Man but a Ghost 👻</p>
                   </div>
                 </div>
                 <div className="crancy-friends-card__content">
-                  <a href="#" className="crancy-btn crancy-btn__view">
+                  <Link
+                    href="/ProfileOverview/"
+                    className="crancy-btn crancy-btn__view"
+                  >
                     Following
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

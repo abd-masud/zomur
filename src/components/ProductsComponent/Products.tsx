@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Products = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -17,7 +19,7 @@ export const Products = () => {
                               id="list-tab"
                               role="tablist"
                             >
-                              <a
+                              <Link
                                 className="list-group-item active"
                                 data-bs-toggle="list"
                                 href="#crancy-table-tab-1"
@@ -45,8 +47,8 @@ export const Products = () => {
                                     />
                                   </svg>
                                 </span>
-                              </a>
-                              <a
+                              </Link>
+                              <Link
                                 className="list-group-item"
                                 data-bs-toggle="list"
                                 href="#crancy-table-tab-1"
@@ -86,7 +88,7 @@ export const Products = () => {
                                     />
                                   </svg>
                                 </span>
-                              </a>
+                              </Link>
                             </div>
                           </div>
                           <div className="crancy-table-meta__single">
@@ -119,7 +121,10 @@ export const Products = () => {
                               <option value="3">Tredning</option>
                             </select>
                           </div>
-                          <a href="#" className="crancy-btn crancy-btn__filter">
+                          <Link
+                            href="/Products/"
+                            className="crancy-btn crancy-btn__filter"
+                          >
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               width="16"
@@ -143,7 +148,7 @@ export const Products = () => {
                               />
                             </svg>
                             Add products
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -201,13 +206,13 @@ export const Products = () => {
                           </div>
                         </div>
                         <div className="crancy-customer-filter__single crancy-customer-filter_filter">
-                          <a
-                            href="#"
+                          <Link
+                            href="/Products/"
                             className="crancy-customer-filter__single--button crancy-filters-button"
                           >
                             <img src="img/filter-icon3.svg" />
                             Filters
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="crancy-table-filter crancy-table-filter-tables mg-btm-20">
@@ -815,9 +820,12 @@ export const Products = () => {
                   <div className="crancy-sidebar__single">
                     <div className="crancy-sidebar__heading">
                       <h4 className="crancy-sidebar__title">Sales history</h4>
-                      <a href="#" className="crancy-sidebar__toggles">
+                      <Link
+                        href="/Products/"
+                        className="crancy-sidebar__toggles"
+                      >
                         <img src="img/toggle-icon2.svg" />
-                      </a>
+                      </Link>
                     </div>
 
                     <ul className="crancy-sidebar__historylist">
@@ -826,11 +834,11 @@ export const Products = () => {
                           <div className="crancy-sidebar__history-thumb">
                             <img src="img/sales-history-1.png" alt="#" />
                             <h4>
-                              <a href="#">
+                              <Link href="/Products/">
                                 <span className="crancy-sidebar__history-title">
                                   Rompi Berkancing
                                 </span>
-                              </a>
+                              </Link>
                               <b className="crancy-sidebar__history-name crancy-pcolor">
                                 $400.98<span>April 29, 2022</span>
                               </b>
@@ -846,11 +854,11 @@ export const Products = () => {
                           <div className="crancy-sidebar__history-thumb">
                             <img src="img/sales-history-2.png" alt="#" />
                             <h4>
-                              <a href="#">
+                              <Link href="/Products/">
                                 <span className="crancy-sidebar__history-title">
                                   Blazer assorted pocket
                                 </span>
-                              </a>
+                              </Link>
                               <b className="crancy-sidebar__history-name crancy-pcolor">
                                 $550.75<span>April 28, 2022</span>
                               </b>
@@ -866,11 +874,11 @@ export const Products = () => {
                           <div className="crancy-sidebar__history-thumb">
                             <img src="img/sales-history-3.png" alt="#" />
                             <h4>
-                              <a href="#">
+                              <Link href="/Products/">
                                 <span className="crancy-sidebar__history-title">
                                   Pattern top with knot
                                 </span>
-                              </a>
+                              </Link>
                               <b className="crancy-sidebar__history-name crancy-pcolor">
                                 $210.98<span>April 25, 2022</span>
                               </b>

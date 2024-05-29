@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Notification = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -20,30 +22,30 @@ export const Notification = () => {
                               id="nav-tab"
                               role="tablist"
                             >
-                              <a
+                              <Link
                                 className="list-group-item active"
                                 data-bs-toggle="list"
                                 href="#notify-one"
                                 role="tab"
                               >
                                 Today
-                              </a>
-                              <a
+                              </Link>
+                              <Link
                                 className="list-group-item"
                                 data-bs-toggle="list"
                                 href="#notify-one"
                                 role="tab"
                               >
                                 7 days
-                              </a>
-                              <a
+                              </Link>
+                              <Link
                                 className="list-group-item"
                                 data-bs-toggle="list"
                                 href="#notify-one"
                                 role="tab"
                               >
                                 All
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
@@ -71,9 +73,9 @@ export const Notification = () => {
                                   </div>
                                 </div>
                                 <div className="crancy-toggle-arrow">
-                                  <a href="#">
+                                  <Link href="/Notifications/">
                                     <img src="img/toggle-icon-4.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </li>
 
@@ -93,9 +95,9 @@ export const Notification = () => {
                                   </div>
                                 </div>
                                 <div className="crancy-toggle-arrow">
-                                  <a href="#">
+                                  <Link href="/Notifications/">
                                     <img src="img/toggle-icon-4.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </li>
                               <li className="crancy-paymentm__single crancy-paymentm__single--notify">
@@ -114,9 +116,9 @@ export const Notification = () => {
                                   </div>
                                 </div>
                                 <div className="crancy-toggle-arrow">
-                                  <a href="#">
+                                  <Link href="/Notifications/">
                                     <img src="img/toggle-icon-4.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </li>
                               <li className="crancy-paymentm__single crancy-paymentm__single--notify">
@@ -135,9 +137,9 @@ export const Notification = () => {
                                   </div>
                                 </div>
                                 <div className="crancy-toggle-arrow">
-                                  <a href="#">
+                                  <Link href="/Notifications/">
                                     <img src="img/toggle-icon-4.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </li>
                               <li className="crancy-paymentm__single crancy-paymentm__single--notify">
@@ -155,9 +157,9 @@ export const Notification = () => {
                                   </div>
                                 </div>
                                 <div className="crancy-toggle-arrow">
-                                  <a href="#">
+                                  <Link href="/Notifications/">
                                     <img src="img/toggle-icon-4.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </li>
                               <li className="crancy-paymentm__single crancy-paymentm__single--notify">
@@ -176,9 +178,9 @@ export const Notification = () => {
                                   </div>
                                 </div>
                                 <div className="crancy-toggle-arrow">
-                                  <a href="#">
+                                  <Link href="/Notifications/">
                                     <img src="img/toggle-icon-4.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </li>
                               <li className="crancy-paymentm__single crancy-paymentm__single--notify">
@@ -197,9 +199,9 @@ export const Notification = () => {
                                   </div>
                                 </div>
                                 <div className="crancy-toggle-arrow">
-                                  <a href="#">
+                                  <Link href="/Notifications/">
                                     <img src="img/toggle-icon-4.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </li>
                               <li className="crancy-paymentm__single crancy-paymentm__single--notify">
@@ -218,9 +220,9 @@ export const Notification = () => {
                                   </div>
                                 </div>
                                 <div className="crancy-toggle-arrow">
-                                  <a href="#">
+                                  <Link href="/Notifications/">
                                     <img src="img/toggle-icon-4.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </li>
                               <li className="crancy-paymentm__single crancy-paymentm__single--notify">
@@ -239,9 +241,9 @@ export const Notification = () => {
                                   </div>
                                 </div>
                                 <div className="crancy-toggle-arrow">
-                                  <a href="#">
+                                  <Link href="/Notifications/">
                                     <img src="img/toggle-icon-4.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </li>
                               <li className="crancy-paymentm__single crancy-paymentm__single--notify">
@@ -260,9 +262,9 @@ export const Notification = () => {
                                   </div>
                                 </div>
                                 <div className="crancy-toggle-arrow">
-                                  <a href="#">
+                                  <Link href="/Notifications/">
                                     <img src="img/toggle-icon-4.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                               </li>
                             </ul>
@@ -270,9 +272,12 @@ export const Notification = () => {
                         </div>
                       </div>
                       <div className="crancy-balance__button text-center mg-top-30">
-                        <a href="#" className="crancy-btn crancy-btn">
+                        <Link
+                          href="/Notifications/"
+                          className="crancy-btn crancy-btn"
+                        >
                           See all Notification
-                        </a>
+                        </Link>
                       </div>
                     </form>
                   </div>

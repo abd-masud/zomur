@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Projects = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -13,18 +15,18 @@ export const Projects = () => {
                         Projects
                       </h2>
                       <div className="crancy-projects-head__right">
-                        <a
-                          href="#"
+                        <Link
+                          href="/Projects/"
                           className="crancy-projects-head__button crancy-projects-head__button--filter"
                         >
                           <img src="img/filter-icon.svg" />
-                        </a>
-                        <a
-                          href="#"
+                        </Link>
+                        <Link
+                          href="/Projects/"
                           className="crancy-btn crancy-projects-head__button crancy-projects-head__button--add"
                         >
                           <i className="fas fa-plus"></i>Add Project
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -34,39 +36,39 @@ export const Projects = () => {
                       id="list-tab"
                       role="tablist"
                     >
-                      <a
+                      <Link
                         className="list-group-item active"
                         data-bs-toggle="list"
-                        //   href="#tab_p1"
+                        // href="#tab_p1"
                         role="tab"
                         href="/ProfileComponent/"
                       >
                         All<span>151</span>
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         className="list-group-item"
                         data-bs-toggle="list"
                         href="#tab_p1"
                         role="tab"
                       >
                         Started<span>128</span>
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         className="list-group-item"
                         data-bs-toggle="list"
                         href="#tab_p1"
                         role="tab"
                       >
                         On Hold<span>15</span>
-                      </a>
-                      <a
+                      </Link>
+                      <Link
                         className="list-group-item"
                         data-bs-toggle="list"
                         href="#tab_p1"
                         role="tab"
                       >
                         Completed<span>8</span>
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -82,12 +84,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -102,10 +104,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -120,10 +122,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -138,10 +140,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -157,7 +162,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -200,15 +205,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -219,12 +224,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -239,10 +244,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -257,10 +262,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -275,10 +280,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -294,7 +302,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -337,15 +345,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -356,12 +364,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -376,10 +384,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -394,10 +402,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -412,10 +420,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -431,7 +442,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -474,15 +485,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -493,12 +504,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -513,10 +524,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -531,10 +542,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -549,10 +560,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -568,7 +582,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -611,15 +625,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -630,12 +644,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -650,10 +664,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -668,10 +682,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -686,10 +700,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -705,7 +722,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -748,15 +765,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -767,12 +784,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -787,10 +804,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -805,10 +822,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -823,10 +840,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -842,7 +862,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -885,15 +905,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -904,12 +924,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -924,10 +944,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -942,10 +962,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -960,10 +980,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -979,7 +1002,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -1022,15 +1045,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -1041,12 +1064,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1061,10 +1084,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1079,10 +1102,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1097,10 +1120,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1116,7 +1142,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -1159,15 +1185,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -1178,12 +1204,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1198,10 +1224,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1216,10 +1242,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1234,10 +1260,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1253,7 +1282,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -1296,15 +1325,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -1315,12 +1344,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1335,10 +1364,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1353,10 +1382,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1371,10 +1400,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1390,7 +1422,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -1433,15 +1465,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -1452,12 +1484,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1472,10 +1504,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1490,10 +1522,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1508,10 +1540,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1527,7 +1562,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -1570,15 +1605,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -1589,12 +1624,12 @@ export const Projects = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-project mg-top-30">
                           <div className="crancy-toggle">
-                            <a className="crancy-toggle__dropd">
+                            <Link href="" className="crancy-toggle__dropd">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                             <ul className="crancy-toggle__dropdown">
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1609,10 +1644,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Edit
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#">
+                                <Link href="/Projects/">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1627,10 +1662,10 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Member
-                                </a>
+                                </Link>
                               </li>
                               <li>
-                                <a href="#" className="">
+                                <Link href="/Projects/" className="">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1645,10 +1680,13 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Add Due Date
-                                </a>
+                                </Link>
                               </li>
                               <li className="last-dropdown">
-                                <a href="#" className="crancy-color4">
+                                <Link
+                                  href="/Projects/"
+                                  className="crancy-color4"
+                                >
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -1664,7 +1702,7 @@ export const Projects = () => {
                                     />
                                   </svg>
                                   Delete Project
-                                </a>
+                                </Link>
                               </li>
                             </ul>
                           </div>
@@ -1707,15 +1745,15 @@ export const Projects = () => {
                           </div>
                           <div className="crancy-single-project__bottom">
                             <div className="crancy-single-project__authors">
-                              <a href="#">
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-1.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-2.png" />
-                              </a>
-                              <a href="#">
+                              </Link>
+                              <Link href="/Projects/">
                                 <img src="img/pr-author-3.png" />
-                              </a>
+                              </Link>
                             </div>
                             <div className="crancy-single-project__date">
                               <img src="img/time.svg" />1 week left
@@ -1733,39 +1771,39 @@ export const Projects = () => {
             <div className="crancy-pagination crancy-pagination__v3">
               <ul className="crancy-pagination__list">
                 <li className="crancy-pagination__button">
-                  <a href="#">
+                  <Link href="/Projects/">
                     <i className="fas fa-angles-left"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="crancy-pagination__button">
-                  <a href="#">
+                  <Link href="/Projects/">
                     <i className="fas fa-angle-left"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a href="#">1</a>
+                  <Link href="/Projects/">1</Link>
                 </li>
                 <li className="active">
-                  <a href="#">2</a>
+                  <Link href="/Projects/">2</Link>
                 </li>
                 <li>
-                  <a href="#">3</a>
+                  <Link href="/Projects/">3</Link>
                 </li>
                 <li>
-                  <a href="#">...</a>
+                  <Link href="/Projects/">...</Link>
                 </li>
                 <li>
-                  <a href="#">4</a>
+                  <Link href="/Projects/">4</Link>
                 </li>
                 <li className="crancy-pagination__button">
-                  <a href="#">
+                  <Link href="/Projects/">
                     <i className="fas fa-angles-right"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="crancy-pagination__button">
-                  <a href="#">
+                  <Link href="/Projects/">
                     <i className="fas fa-angle-right"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>

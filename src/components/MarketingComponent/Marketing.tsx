@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Marketing = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -17,19 +19,19 @@ export const Marketing = () => {
                         </div>
                         <div className="crancy-progress-card__authors">
                           <div className="crancy-tasksingle__group crancy-tasksingle__group--authors">
-                            <a href="#">
+                            <Link href="/Marketing/">
                               <img src="img/author-1.png" alt="author-img" />
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/Marketing/">
                               <img src="img/author-2.png" alt="author-img" />
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              href="/Marketing/"
                               className="crancy-tasksingle__group--more"
                             >
                               <span>35</span>
                               <img src="img/author-5.png" alt="author-img" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -75,19 +77,19 @@ export const Marketing = () => {
                         </div>
                         <div className="crancy-progress-card__authors">
                           <div className="crancy-tasksingle__group crancy-tasksingle__group--authors">
-                            <a href="#">
+                            <Link href="/Marketing/">
                               <img src="img/author-1.png" alt="author-img" />
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/Marketing/">
                               <img src="img/author-2.png" alt="author-img" />
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              href="/Marketing/"
                               className="crancy-tasksingle__group--more"
                             >
                               <span>35</span>
                               <img src="img/author-5.png" alt="author-img" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -133,19 +135,19 @@ export const Marketing = () => {
                         </div>
                         <div className="crancy-progress-card__authors">
                           <div className="crancy-tasksingle__group crancy-tasksingle__group--authors">
-                            <a href="#">
+                            <Link href="/Marketing/">
                               <img src="img/author-1.png" alt="author-img" />
-                            </a>
-                            <a href="#">
+                            </Link>
+                            <Link href="/Marketing/">
                               <img src="img/author-2.png" alt="author-img" />
-                            </a>
-                            <a
-                              href="#"
+                            </Link>
+                            <Link
+                              href="/Marketing/"
                               className="crancy-tasksingle__group--more"
                             >
                               <span>35</span>
                               <img src="img/author-5.png" alt="author-img" />
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -196,7 +198,7 @@ export const Marketing = () => {
                             id="list-tab"
                             role="tablist"
                           >
-                            <a
+                            <Link
                               className="list-group-item active"
                               data-bs-toggle="list"
                               href="#crancy-chart__s1"
@@ -217,8 +219,8 @@ export const Marketing = () => {
                                 />
                               </svg>
                               Income
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               className="list-group-item"
                               data-bs-toggle="list"
                               href="#crancy-chart__s1"
@@ -239,27 +241,27 @@ export const Marketing = () => {
                                 />
                               </svg>
                               Expense
-                            </a>
+                            </Link>
                           </div>
                         </div>
                         <div className="crancy-customer-filter pd-0 m-0">
                           <div className="crancy-customer-filter__single">
-                            <a
-                              href="#"
+                            <Link
+                              href="/Marketing/"
                               className="crancy-customer-filter__single--button"
                             >
                               <img src="img/calendar-icon-2.svg" />
                               April 11 - April 24
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-customer-filter__single">
-                            <a
-                              href="#"
+                            <Link
+                              href="/Marketing/"
                               className="crancy-customer-filter__single--button"
                             >
                               <img src="img/download-icon2.svg" />
                               Download
-                            </a>
+                            </Link>
                           </div>
                         </div>
                       </div>
@@ -286,10 +288,10 @@ export const Marketing = () => {
                     <h3 className="crancy-table__title mb-0">
                       Recent Marketing
                     </h3>
-                    <a className="crancy-table__filter">
+                    <Link href="/Marketing/" className="crancy-table__filter">
                       <img src="img/crancy-filter.svg" />
                       Filter
-                    </a>
+                    </Link>
                   </div>
 
                   <table
@@ -782,30 +784,30 @@ export const Marketing = () => {
                           id="list-tab"
                           role="tablist"
                         >
-                          <a
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#crancy-spending-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Week
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item active"
                             data-bs-toggle="list"
                             href="#crancy-spending-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Month
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#crancy-spending-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Year
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="tab-content" id="nav-tabContent">
@@ -852,9 +854,12 @@ export const Marketing = () => {
                     <div className="crancy-total-view">
                       <div className="crancy-sidebar__heading crancy-sidebar__heading--bordered">
                         <h4 className="crancy-sidebar__title">Performance</h4>
-                        <a href="#" className="crancy-sidebar__toggles">
+                        <Link
+                          href="/Marketing/"
+                          className="crancy-sidebar__toggles"
+                        >
                           <img src="img/toggle-icon2.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-total-view__inner text-center">
                         <div className="crancy-total-view__chart">
@@ -868,9 +873,12 @@ export const Marketing = () => {
                           Your spending decreased -7.8% from last month. Good
                           job!
                         </p>
-                        <a href="#" className="crancy-btn mg-top-20">
+                        <Link
+                          href="/Marketing/"
+                          className="crancy-btn mg-top-20"
+                        >
                           See More
-                        </a>
+                        </Link>
                         <ul className="crancy-progress-list crancy-flex__center crancy-progress-list--v2 crancy-progress-list__inline mg-top-40">
                           <li>
                             <span className="crancy-progress-list__color"></span>
@@ -899,22 +907,22 @@ export const Marketing = () => {
                           id="list-tab"
                           role="tablist"
                         >
-                          <a
+                          <Link
                             className="list-group-item"
                             data-bs-toggle="list"
                             href="#crancy-traffic-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Month
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="list-group-item active"
                             data-bs-toggle="list"
                             href="#crancy-traffic-1"
                             role="tab"
                           >
                             <span className="crancy-tsidebar__icon"></span>Week
-                          </a>
+                          </Link>
                         </div>
                       </div>
 
@@ -981,9 +989,12 @@ export const Marketing = () => {
                       </div>
 
                       <div className="crancy-view-all pd-left-30 pd-right-30 pd-0 mg-top-30">
-                        <a className="crancy-btn crancy-btn__view crancy-full-width">
+                        <Link
+                          href="/Marketing/"
+                          className="crancy-btn crancy-btn__view crancy-full-width"
+                        >
                           View All
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>

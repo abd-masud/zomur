@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const User = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -65,13 +67,16 @@ export const User = () => {
                       <div className="crancy-user-search__single crancy-user-search__single--button">
                         <div className="crancy-user-search__group">
                           <div className="crancy-user-search__filter">
-                            <a href="#">
+                            <Link href="/User/">
                               <img src="img/filter-icon2.svg" />
-                            </a>
+                            </Link>
                           </div>
-                          <a href="#" className="crancy-btn crancy-btn__user">
+                          <Link
+                            href="/User/"
+                            className="crancy-btn crancy-btn__user"
+                          >
                             Search
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -80,9 +85,9 @@ export const User = () => {
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-user mg-top-30">
                           <div className="crancy-toggle">
-                            <a href="#">
+                            <Link href="/User/">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-single-user__head">
                             <img src="img/user-2.png" />
@@ -94,24 +99,25 @@ export const User = () => {
                           <div className="crancy-single-user__info">
                             <ul className="crancy-single-user__list">
                               <li>
-                                Email: <a href="#">cooper@example.com</a>
+                                Email:{" "}
+                                <Link href="/User/">cooper@example.com</Link>
                               </li>
                               <li>
-                                Phone: <a href="#">(219) 555-0114</a>
+                                Phone: <Link href="/User/">(219) 555-0114</Link>
                               </li>
                             </ul>
                           </div>
-                          <a href="inbox.html" className="crancy-btn__default">
+                          <Link href="/Inbox/" className="crancy-btn__default">
                             Message
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-user mg-top-30">
                           <div className="crancy-toggle">
-                            <a href="#">
+                            <Link href="/User/">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-single-user__head">
                             <img src="img/user-3.png" />
@@ -125,24 +131,25 @@ export const User = () => {
                           <div className="crancy-single-user__info">
                             <ul className="crancy-single-user__list">
                               <li>
-                                Email: <a href="#">cooper@example.com</a>
+                                Email:{" "}
+                                <Link href="/User/">cooper@example.com</Link>
                               </li>
                               <li>
-                                Phone: <a href="#">(219) 555-0114</a>
+                                Phone: <Link href="/User/">(219) 555-0114</Link>
                               </li>
                             </ul>
                           </div>
-                          <a href="inbox.html" className="crancy-btn__default">
+                          <Link href="/Inbox/" className="crancy-btn__default">
                             Message
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-user mg-top-30">
                           <div className="crancy-toggle">
-                            <a href="#">
+                            <Link href="/User/">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-single-user__head">
                             <img src="img/user-4.png" />
@@ -156,24 +163,25 @@ export const User = () => {
                           <div className="crancy-single-user__info">
                             <ul className="crancy-single-user__list">
                               <li>
-                                Email: <a href="#">cooper@example.com</a>
+                                Email:{" "}
+                                <Link href="/User/">cooper@example.com</Link>
                               </li>
                               <li>
-                                Phone: <a href="#">(219) 555-0114</a>
+                                Phone: <Link href="/User/">(219) 555-0114</Link>
                               </li>
                             </ul>
                           </div>
-                          <a href="inbox.html" className="crancy-btn__default">
+                          <Link href="/Inbox/" className="crancy-btn__default">
                             Message
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-user mg-top-30">
                           <div className="crancy-toggle">
-                            <a href="#">
+                            <Link href="/User/">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-single-user__head">
                             <img src="img/user-5.png" />
@@ -187,24 +195,25 @@ export const User = () => {
                           <div className="crancy-single-user__info">
                             <ul className="crancy-single-user__list">
                               <li>
-                                Email: <a href="#">cooper@example.com</a>
+                                Email:{" "}
+                                <Link href="/User/">cooper@example.com</Link>
                               </li>
                               <li>
-                                Phone: <a href="#">(219) 555-0114</a>
+                                Phone: <Link href="/User/">(219) 555-0114</Link>
                               </li>
                             </ul>
                           </div>
-                          <a href="inbox.html" className="crancy-btn__default">
+                          <Link href="/Inbox/" className="crancy-btn__default">
                             Message
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-user mg-top-30">
                           <div className="crancy-toggle">
-                            <a href="#">
+                            <Link href="/User/">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-single-user__head">
                             <img src="img/user-6.png" />
@@ -218,24 +227,25 @@ export const User = () => {
                           <div className="crancy-single-user__info">
                             <ul className="crancy-single-user__list">
                               <li>
-                                Email: <a href="#">cooper@example.com</a>
+                                Email:{" "}
+                                <Link href="/User/">cooper@example.com</Link>
                               </li>
                               <li>
-                                Phone: <a href="#">(219) 555-0114</a>
+                                Phone: <Link href="/User/">(219) 555-0114</Link>
                               </li>
                             </ul>
                           </div>
-                          <a href="inbox.html" className="crancy-btn__default">
+                          <Link href="/Inbox/" className="crancy-btn__default">
                             Message
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-user mg-top-30">
                           <div className="crancy-toggle">
-                            <a href="#">
+                            <Link href="/User/">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-single-user__head">
                             <img src="img/user-7.png" />
@@ -249,24 +259,25 @@ export const User = () => {
                           <div className="crancy-single-user__info">
                             <ul className="crancy-single-user__list">
                               <li>
-                                Email: <a href="#">cooper@example.com</a>
+                                Email:{" "}
+                                <Link href="/User/">cooper@example.com</Link>
                               </li>
                               <li>
-                                Phone: <a href="#">(219) 555-0114</a>
+                                Phone: <Link href="/User/">(219) 555-0114</Link>
                               </li>
                             </ul>
                           </div>
-                          <a href="inbox.html" className="crancy-btn__default">
+                          <Link href="/Inbox/" className="crancy-btn__default">
                             Message
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-user mg-top-30">
                           <div className="crancy-toggle">
-                            <a href="#">
+                            <Link href="/User/">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-single-user__head">
                             <img src="img/user-2.png" />
@@ -278,24 +289,25 @@ export const User = () => {
                           <div className="crancy-single-user__info">
                             <ul className="crancy-single-user__list">
                               <li>
-                                Email: <a href="#">cooper@example.com</a>
+                                Email:{" "}
+                                <Link href="/User/">cooper@example.com</Link>
                               </li>
                               <li>
-                                Phone: <a href="#">(219) 555-0114</a>
+                                Phone: <Link href="/User/">(219) 555-0114</Link>
                               </li>
                             </ul>
                           </div>
-                          <a href="inbox.html" className="crancy-btn__default">
+                          <Link href="/Inbox/" className="crancy-btn__default">
                             Message
-                          </a>
+                          </Link>
                         </div>
                       </div>
                       <div className="col-xxl-3 col-lg-4 col-md-6 col-12">
                         <div className="crancy-single-user mg-top-30">
                           <div className="crancy-toggle">
-                            <a href="#">
+                            <Link href="/User/">
                               <img src="img/toggle-icon.svg" />
-                            </a>
+                            </Link>
                           </div>
                           <div className="crancy-single-user__head">
                             <img src="img/user-3.png" />
@@ -309,16 +321,17 @@ export const User = () => {
                           <div className="crancy-single-user__info">
                             <ul className="crancy-single-user__list">
                               <li>
-                                Email: <a href="#">cooper@example.com</a>
+                                Email:{" "}
+                                <Link href="/User/">cooper@example.com</Link>
                               </li>
                               <li>
-                                Phone: <a href="#">(219) 555-0114</a>
+                                Phone: <Link href="/User/">(219) 555-0114</Link>
                               </li>
                             </ul>
                           </div>
-                          <a href="inbox.html" className="crancy-btn__default">
+                          <Link href="/Inbox/" className="crancy-btn__default">
                             Message
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -326,39 +339,39 @@ export const User = () => {
                       <div className="crancy-pagination crancy-pagination__v3">
                         <ul className="crancy-pagination__list">
                           <li className="crancy-pagination__button">
-                            <a href="#">
+                            <Link href="/User/">
                               <i className="fas fa-angles-left"></i>
-                            </a>
+                            </Link>
                           </li>
                           <li className="crancy-pagination__button">
-                            <a href="#">
+                            <Link href="/User/">
                               <i className="fas fa-angle-left"></i>
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a href="#">1</a>
+                            <Link href="/User/">1</Link>
                           </li>
                           <li className="active">
-                            <a href="#">2</a>
+                            <Link href="/User/">2</Link>
                           </li>
                           <li>
-                            <a href="#">3</a>
+                            <Link href="/User/">3</Link>
                           </li>
                           <li>
-                            <a href="#">...</a>
+                            <Link href="/User/">...</Link>
                           </li>
                           <li>
-                            <a href="#">4</a>
+                            <Link href="/User/">4</Link>
                           </li>
                           <li className="crancy-pagination__button">
-                            <a href="#">
+                            <Link href="/User/">
                               <i className="fas fa-angles-right"></i>
-                            </a>
+                            </Link>
                           </li>
                           <li className="crancy-pagination__button">
-                            <a href="#">
+                            <Link href="/User/">
                               <i className="fas fa-angle-right"></i>
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -376,49 +389,50 @@ export const User = () => {
                         </p>
                       </div>
                       <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists mg-top-20">
-                        <a href="#">
+                        <Link href="/User/">
                           <img src="img/author-1.png" alt="author-img" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="/User/">
                           <img src="img/author-2.png" alt="author-img" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="/User/">
                           <img src="img/author-3.png" alt="author-img" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="/User/">
                           <span>+8</span>
-                        </a>
+                        </Link>
                         <b className="crancy-featured-user__more">
                           Eight friends work here
                         </b>
                       </div>
                       <div className="crancy-featured-user__btn-group">
-                        <a href="#">
+                        <Link href="/User/">
                           <img src="img/saved-icon.svg" />
-                        </a>
-                        <a href="#">
+                        </Link>
+                        <Link href="/User/">
                           <img src="img/share-icon.svg" />
-                        </a>
+                        </Link>
                       </div>
                       <ul className="crancy-featured-user__list crancy-featured-user__border">
                         <li>
-                          Experience <a href="#">2-4 Years</a>
+                          Experience <Link href="/User/">2-4 Years</Link>
                         </li>
                         <li>
-                          Seniority Level <a href="#">Senior Level</a>
+                          Seniority Level{" "}
+                          <Link href="/User/">Senior Level</Link>
                         </li>
                         <li>
-                          Employment <a href="#">Full Time</a>
+                          Employment <Link href="/User/">Full Time</Link>
                         </li>
                         <li>
-                          Salary <a href="#">$250-300</a>
+                          Salary <Link href="/User/">$250-300</Link>
                         </li>
                       </ul>
                       <div className="crancy-featured-user__files crancy-featured-user__border">
                         <h4 className="crancy-featured-user__title--small">
                           Files
                         </h4>
-                        <a href="#">
+                        <Link href="/User/">
                           <div className="crancy-featured-user__fcontent">
                             <span className="crancy-featured-user__ficon">
                               <img src="img/file-icon.svg" />
@@ -433,8 +447,8 @@ export const User = () => {
                           <div className="crancy-featured-user__fdownload">
                             <img src="img/download-icon.svg" />
                           </div>
-                        </a>
-                        <a href="#" className="mg-top-20">
+                        </Link>
+                        <Link href="/User/" className="mg-top-20">
                           <div className="crancy-featured-user__fcontent">
                             <span className="crancy-featured-user__ficon">
                               <img src="img/file-icon.svg" />
@@ -449,7 +463,7 @@ export const User = () => {
                           <div className="crancy-featured-user__fdownload">
                             <img src="img/download-icon.svg" />
                           </div>
-                        </a>
+                        </Link>
                       </div>
                       <div className="crancy-featured-user__hagent crancy-featured-user__border">
                         <h4 className="crancy-featured-user__title--small">
@@ -467,12 +481,12 @@ export const User = () => {
                           </div>
                         </div>
                         <div className="crancy-featured-user__button mg-top-25">
-                          <a
-                            href="inbox.html"
+                          <Link
+                            href="/Inbox/"
                             className="crancy-btn crancy-featured-user__btn"
                           >
                             Add a contact
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

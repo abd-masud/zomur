@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const SupportTicket = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -11,9 +13,9 @@ export const SupportTicket = () => {
                     <div className="col-12">
                       <div className="crancy-flex-between crancy-flex-wrap crancy-flex-gap-15">
                         <div className="crancy-table-meta__group">
-                          <a
+                          <Link
                             className="crancy-table-meta__single"
-                            href="#"
+                            href="/SupportTicket/"
                             data-bs-toggle="modal"
                             data-bs-target="#popup_modal_import"
                           >
@@ -35,12 +37,12 @@ export const SupportTicket = () => {
                               </svg>
                               Support Details
                             </p>
-                          </a>
+                          </Link>
                         </div>
                         <div className="crancy-table-meta__group">
-                          <a
+                          <Link
                             className="crancy-table-meta__single"
-                            href="#"
+                            href="/SupportTicket/"
                             data-bs-toggle="modal"
                             data-bs-target="#popup_modal_import"
                           >
@@ -76,10 +78,10 @@ export const SupportTicket = () => {
                               </svg>
                               Print order
                             </p>
-                          </a>
-                          <a
+                          </Link>
+                          <Link
                             className="crancy-table-meta__single"
-                            href="#"
+                            href="/SupportTicket/"
                             data-bs-toggle="modal"
                             data-bs-target="#popup_modal_import"
                           >
@@ -101,7 +103,7 @@ export const SupportTicket = () => {
                               </svg>
                               Refund items
                             </p>
-                          </a>
+                          </Link>
                           <div className="crancy-table-meta__single">
                             <select
                               className="form-select crancy__item-input"
@@ -222,30 +224,30 @@ export const SupportTicket = () => {
                             id="list-tab"
                             role="tablist"
                           >
-                            <a
+                            <Link
                               className="list-group-item active"
                               data-bs-toggle="list"
                               href="#crancy-inbox-1"
                               role="tab"
                             >
                               Your inbox
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               className="list-group-item"
                               data-bs-toggle="list"
                               href="#crancy-inbox-1"
                               role="tab"
                             >
                               Done
-                            </a>
-                            <a
+                            </Link>
+                            <Link
                               className="list-group-item"
                               data-bs-toggle="list"
                               href="#crancy-inbox-1"
                               role="tab"
                             >
                               Saved
-                            </a>
+                            </Link>
                           </div>
                           <div
                             className="tab-content mg-top-20"
@@ -262,12 +264,12 @@ export const SupportTicket = () => {
                                   <h4 className="crancy-sidebar__title">
                                     Recent Support
                                   </h4>
-                                  <a
-                                    href="#"
+                                  <Link
+                                    href="/SupportTicket/"
                                     className="crancy-sidebar__toggles"
                                   >
                                     <img src="img/toggle-icon.svg" />
-                                  </a>
+                                  </Link>
                                 </div>
                                 <div className="crancy-inbox-card crancy-bradius crancy-flex-center crancy-align-item-start crancy-flex-wrap crancy-flex-gap-10 mg-top-20">
                                   <img
@@ -280,10 +282,10 @@ export const SupportTicket = () => {
                                       Joel Becker <span>12h</span>
                                     </p>
                                     <h5 className="crancy-inbox-card__title">
-                                      <a href="#">
+                                      <Link href="/SupportTicket/">
                                         When is the Sketch version available for
                                         download?
-                                      </a>
+                                      </Link>
                                     </h5>
                                     <p>
                                       "Love this so much! What tools do you use
@@ -291,7 +293,7 @@ export const SupportTicket = () => {
                                     </p>
                                     <ul className="crancy-inbox-card__list d-flex crancy-flex-gap-15 mg-top-15">
                                       <li>
-                                        <a href="#">
+                                        <Link href="/SupportTicket/">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="12"
@@ -304,10 +306,10 @@ export const SupportTicket = () => {
                                               d="M6 0C2.7 0 0 2.325 0 5.25C0 8.175 2.7 10.5 6 10.5C6.3 10.5 6.6 10.5 6.825 10.425L10.5 12V8.7C11.4 7.8 12 6.6 12 5.25C12 2.325 9.3 0 6 0Z"
                                             />
                                           </svg>
-                                        </a>
+                                        </Link>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <Link href="/SupportTicket/">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="12"
@@ -320,10 +322,10 @@ export const SupportTicket = () => {
                                               d="M11.358 4.0787L8.12095 3.60845L6.6727 0.675203C6.4192 0.162953 5.5807 0.162953 5.3272 0.675203L3.8797 3.60845L0.64195 4.0787C0.0292003 4.16795 -0.21905 4.92395 0.22645 5.35895L2.56945 7.64195L2.0167 10.8662C1.91245 11.4767 2.55445 11.9455 3.10495 11.6567L5.99995 10.135L8.8957 11.6575C9.4417 11.9432 10.089 11.482 9.98395 10.867L9.4312 7.6427L11.7742 5.3597C12.219 4.92395 11.9707 4.16795 11.358 4.0787Z"
                                             />
                                           </svg>
-                                        </a>
+                                        </Link>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <Link href="/SupportTicket/">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="12"
@@ -350,7 +352,7 @@ export const SupportTicket = () => {
                                               r="1.5"
                                             />
                                           </svg>
-                                        </a>
+                                        </Link>
                                       </li>
                                     </ul>
                                   </div>
@@ -366,10 +368,10 @@ export const SupportTicket = () => {
                                       Joel Becker <span>12h</span>
                                     </p>
                                     <h5 className="crancy-inbox-card__title">
-                                      <a href="#">
+                                      <Link href="/SupportTicket/">
                                         When is the Sketch version available for
                                         download?
-                                      </a>
+                                      </Link>
                                     </h5>
                                     <p>
                                       "Love this so much! What tools do you use
@@ -377,7 +379,7 @@ export const SupportTicket = () => {
                                     </p>
                                     <ul className="crancy-inbox-card__list d-flex crancy-flex-gap-15 mg-top-15">
                                       <li>
-                                        <a href="#">
+                                        <Link href="/SupportTicket/">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="12"
@@ -390,10 +392,10 @@ export const SupportTicket = () => {
                                               d="M6 0C2.7 0 0 2.325 0 5.25C0 8.175 2.7 10.5 6 10.5C6.3 10.5 6.6 10.5 6.825 10.425L10.5 12V8.7C11.4 7.8 12 6.6 12 5.25C12 2.325 9.3 0 6 0Z"
                                             />
                                           </svg>
-                                        </a>
+                                        </Link>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <Link href="/SupportTicket/">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="12"
@@ -406,10 +408,10 @@ export const SupportTicket = () => {
                                               d="M11.358 4.0787L8.12095 3.60845L6.6727 0.675203C6.4192 0.162953 5.5807 0.162953 5.3272 0.675203L3.8797 3.60845L0.64195 4.0787C0.0292003 4.16795 -0.21905 4.92395 0.22645 5.35895L2.56945 7.64195L2.0167 10.8662C1.91245 11.4767 2.55445 11.9455 3.10495 11.6567L5.99995 10.135L8.8957 11.6575C9.4417 11.9432 10.089 11.482 9.98395 10.867L9.4312 7.6427L11.7742 5.3597C12.219 4.92395 11.9707 4.16795 11.358 4.0787Z"
                                             />
                                           </svg>
-                                        </a>
+                                        </Link>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <Link href="/SupportTicket/">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="12"
@@ -436,7 +438,7 @@ export const SupportTicket = () => {
                                               r="1.5"
                                             />
                                           </svg>
-                                        </a>
+                                        </Link>
                                       </li>
                                     </ul>
                                   </div>
@@ -452,10 +454,10 @@ export const SupportTicket = () => {
                                       Joel Becker <span>12h</span>
                                     </p>
                                     <h5 className="crancy-inbox-card__title">
-                                      <a href="#">
+                                      <Link href="/SupportTicket/">
                                         When is the Sketch version available for
                                         download?
-                                      </a>
+                                      </Link>
                                     </h5>
                                     <p>
                                       "Love this so much! What tools do you use
@@ -463,7 +465,7 @@ export const SupportTicket = () => {
                                     </p>
                                     <ul className="crancy-inbox-card__list d-flex crancy-flex-gap-15 mg-top-15">
                                       <li>
-                                        <a href="#">
+                                        <Link href="/SupportTicket/">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="12"
@@ -476,10 +478,10 @@ export const SupportTicket = () => {
                                               d="M6 0C2.7 0 0 2.325 0 5.25C0 8.175 2.7 10.5 6 10.5C6.3 10.5 6.6 10.5 6.825 10.425L10.5 12V8.7C11.4 7.8 12 6.6 12 5.25C12 2.325 9.3 0 6 0Z"
                                             />
                                           </svg>
-                                        </a>
+                                        </Link>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <Link href="/SupportTicket/">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="12"
@@ -492,10 +494,10 @@ export const SupportTicket = () => {
                                               d="M11.358 4.0787L8.12095 3.60845L6.6727 0.675203C6.4192 0.162953 5.5807 0.162953 5.3272 0.675203L3.8797 3.60845L0.64195 4.0787C0.0292003 4.16795 -0.21905 4.92395 0.22645 5.35895L2.56945 7.64195L2.0167 10.8662C1.91245 11.4767 2.55445 11.9455 3.10495 11.6567L5.99995 10.135L8.8957 11.6575C9.4417 11.9432 10.089 11.482 9.98395 10.867L9.4312 7.6427L11.7742 5.3597C12.219 4.92395 11.9707 4.16795 11.358 4.0787Z"
                                             />
                                           </svg>
-                                        </a>
+                                        </Link>
                                       </li>
                                       <li>
-                                        <a href="#">
+                                        <Link href="/SupportTicket/">
                                           <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             width="12"
@@ -522,7 +524,7 @@ export const SupportTicket = () => {
                                               r="1.5"
                                             />
                                           </svg>
-                                        </a>
+                                        </Link>
                                       </li>
                                     </ul>
                                   </div>
@@ -561,31 +563,31 @@ export const SupportTicket = () => {
                         </p>
                       </div>
                     </div>
-                    <a href="#">
+                    <Link href="/SupportTicket/">
                       <img src="img/message-icon2.svg" />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="crancy-wallet-customer__single">
                   <h3 className="crancy-wallet-customer__title">
                     Contact Information
-                    <a href="#" className="crancy-color1">
+                    <Link href="/SupportTicket/" className="crancy-color1">
                       Edit
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="crancy-wallet-customer__contact">
                     <li>
                       <img src="img/email-icon2.svg" />
                       <p>
-                        <a href="mailto:darcelballentine@mail.com">
+                        <Link href="mailto:darcelballentine@mail.com">
                           darcelballentine@mail.com
-                        </a>
+                        </Link>
                       </p>
                     </li>
                     <li>
                       <img src="img/phone-icon2.svg" />
                       <p>
-                        <a href="tell:(671) 555-0110">(671) 555-0110</a>
+                        <Link href="tell:(671) 555-0110">(671) 555-0110</Link>
                       </p>
                     </li>
                   </ul>
@@ -593,9 +595,9 @@ export const SupportTicket = () => {
                 <div className="crancy-wallet-customer__single">
                   <h3 className="crancy-wallet-customer__title">
                     Shipping Address
-                    <a href="#" className="crancy-color1">
+                    <Link href="/SupportTicket/" className="crancy-color1">
                       Edit
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="crancy-wallet-customer__contact">
                     <li>
@@ -607,9 +609,9 @@ export const SupportTicket = () => {
                 <div className="crancy-wallet-customer__single">
                   <h3 className="crancy-wallet-customer__title">
                     Billing Address{" "}
-                    <a href="#" className="crancy-color1">
+                    <Link href="/SupportTicket/" className="crancy-color1">
                       Edit
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="crancy-wallet-customer__contact">
                     <li>
@@ -625,9 +627,9 @@ export const SupportTicket = () => {
                 <div className="crancy-wallet-customer__single">
                   <h3 className="crancy-wallet-customer__title">
                     Note{" "}
-                    <a href="#" className="crancy-color1">
+                    <Link href="/SupportTicket/" className="crancy-color1">
                       Edit
-                    </a>
+                    </Link>
                   </h3>
                   <ul className="crancy-wallet-customer__contact">
                     <li>
@@ -653,9 +655,12 @@ export const SupportTicket = () => {
                 </div>
               </div>
               <div className="mg-top-30">
-                <a href="#" className="crancy-width-100 crancy-btn">
+                <Link
+                  href="/SupportTicket/"
+                  className="crancy-width-100 crancy-btn"
+                >
                   Verify identity
-                </a>
+                </Link>
               </div>
             </div>
           </div>

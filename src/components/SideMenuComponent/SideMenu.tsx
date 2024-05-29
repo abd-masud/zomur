@@ -33,7 +33,7 @@ export const SideBar = () => {
           <div className="menu-bar">
             <ul id="CrancyMenu" className="menu-bar__one crancy-dashboard-menu">
               <li className="active">
-                <a
+                <Link
                   className="collapsed"
                   href="#!"
                   data-bs-toggle="collapse"
@@ -59,7 +59,7 @@ export const SideBar = () => {
                     <span className="menu-bar__name">Dashboards</span>
                   </span>
                   <span className="crancy__toggle"></span>
-                </a>
+                </Link>
                 <div
                   className="collapse crancy__dropdown"
                   id="menu-item__dashboard"

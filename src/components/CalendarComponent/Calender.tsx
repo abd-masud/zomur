@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const Calender = () => {
   return (
     <section className="crancy-adashboard crancy-show">
@@ -39,23 +41,23 @@ export const Calender = () => {
                                 <div className="crancy-my-task__title crancy-flex-center crancy-flex-gap-20">
                                   <h4 className="m-0">Kick off Project</h4>
                                   <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                                    <a href="#">
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-1.png"
                                         alt="author-img"
                                       />
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-2.png"
                                         alt="author-img"
                                       />
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
-                                <a href="#">
+                                <Link href="/Calender/">
                                   <img src="img/toggle-icon-5.svg" />
-                                </a>
+                                </Link>
                               </div>
                               <p>Completed Apr 20</p>
                               <p>Circle - Dashboard, Stats, and UI Kit</p>
@@ -78,23 +80,23 @@ export const Calender = () => {
                                 <div className="crancy-my-task__title crancy-flex-center crancy-flex-gap-20">
                                   <h4 className="m-0">Kick off Project</h4>
                                   <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                                    <a href="#">
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-1.png"
                                         alt="author-img"
                                       />
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-2.png"
                                         alt="author-img"
                                       />
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
-                                <a href="#">
+                                <Link href="/Calender/">
                                   <img src="img/toggle-icon-5.svg" />
-                                </a>
+                                </Link>
                               </div>
                               <p>Completed Apr 20</p>
                               <p>Circle - Dashboard, Stats, and UI Kit</p>
@@ -117,23 +119,23 @@ export const Calender = () => {
                                 <div className="crancy-my-task__title crancy-flex-center crancy-flex-gap-20">
                                   <h4 className="m-0">Kick off Project</h4>
                                   <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                                    <a href="#">
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-1.png"
                                         alt="author-img"
                                       />
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-2.png"
                                         alt="author-img"
                                       />
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
-                                <a href="#">
+                                <Link href="/Calender/">
                                   <img src="img/toggle-icon-5.svg" />
-                                </a>
+                                </Link>
                               </div>
                               <p>Completed Apr 20</p>
                               <p>Circle - Dashboard, Stats, and UI Kit</p>
@@ -156,23 +158,23 @@ export const Calender = () => {
                                 <div className="crancy-my-task__title crancy-flex-center crancy-flex-gap-20">
                                   <h4 className="m-0">Kick off Project</h4>
                                   <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                                    <a href="#">
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-1.png"
                                         alt="author-img"
                                       />
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-2.png"
                                         alt="author-img"
                                       />
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
-                                <a href="#">
+                                <Link href="/Calender/">
                                   <img src="img/toggle-icon-5.svg" />
-                                </a>
+                                </Link>
                               </div>
                               <p>Completed Apr 20</p>
                               <p>Circle - Dashboard, Stats, and UI Kit</p>
@@ -195,23 +197,23 @@ export const Calender = () => {
                                 <div className="crancy-my-task__title crancy-flex-center crancy-flex-gap-20">
                                   <h4 className="m-0">Kick off Project</h4>
                                   <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                                    <a href="#">
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-1.png"
                                         alt="author-img"
                                       />
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-2.png"
                                         alt="author-img"
                                       />
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
-                                <a href="#">
+                                <Link href="/Calender/">
                                   <img src="img/toggle-icon-5.svg" />
-                                </a>
+                                </Link>
                               </div>
                               <p>Completed Apr 20</p>
                               <p>Circle - Dashboard, Stats, and UI Kit</p>
@@ -234,23 +236,23 @@ export const Calender = () => {
                                 <div className="crancy-my-task__title crancy-flex-center crancy-flex-gap-20">
                                   <h4 className="m-0">Kick off Project</h4>
                                   <div className="crancy-tasksingle__group crancy-tasksingle__group--activity crancy-featured-user__lists m-0">
-                                    <a href="#">
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-1.png"
                                         alt="author-img"
                                       />
-                                    </a>
-                                    <a href="#">
+                                    </Link>
+                                    <Link href="/Calender/">
                                       <img
                                         src="img/author-2.png"
                                         alt="author-img"
                                       />
-                                    </a>
+                                    </Link>
                                   </div>
                                 </div>
-                                <a href="#">
+                                <Link href="/Calender/">
                                   <img src="img/toggle-icon-5.svg" />
-                                </a>
+                                </Link>
                               </div>
                               <p>Completed Apr 20</p>
                               <p>Circle - Dashboard, Stats, and UI Kit</p>
@@ -259,12 +261,12 @@ export const Calender = () => {
                         </div>
                       </form>
                       <div className="crancy-flex-center">
-                        <a
-                          href="#"
+                        <Link
+                          href="/Calender/"
                           className="crancy-underline crancy-font-medium"
                         >
                           Show More Schedule
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
